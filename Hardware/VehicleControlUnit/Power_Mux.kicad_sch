@@ -1904,7 +1904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b5b7fd6-b1a2-49bf-aab6-5b1c87c9f917")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 78.994 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1983,7 +1983,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f16a8bc3-f058-4d27-badd-0afc148d009e/d4cd4986-72cf-4091-9d22-3ed3db5e35c5"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)

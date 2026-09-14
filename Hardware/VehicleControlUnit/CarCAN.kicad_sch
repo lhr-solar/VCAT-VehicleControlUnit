@@ -34237,7 +34237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3dc1093-5927-44fd-b183-035a11ec5677")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 201.93 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34333,7 +34333,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/252635d1-b56c-4964-8f6e-39efe20521e2"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -34701,7 +34701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f905bbd5-25e3-4518-9a89-c3e959777327")
-		(property "Reference" "R14"
+		(property "Reference" "R13"
 			(at 176.53 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34803,7 +34803,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/252635d1-b56c-4964-8f6e-39efe20521e2"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 			)

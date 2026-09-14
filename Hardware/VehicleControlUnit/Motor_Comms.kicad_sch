@@ -847,6 +847,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2407,6 +2585,291 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ROE-3.305S:ROE-3.305S"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PS"
+				(at -10.1639 8.8979 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ROE-3.305S"
+				(at -10.1614 -10.1627 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ROE-3.305S:CONV_ROE-3.305S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1W DC/DC-Converter 'ECONOLINE' SIP4 1kV unreg"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Recom Power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "10.00mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ROE-3.305S/Recom+Power/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ROE-3.305S/Recom+Power/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "ROE-3.305S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "RECOM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "ROE-3.305S_0_0"
+				(rectangle
+					(start -10.16 -7.62)
+					(end 10.16 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "-VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -2743,6 +3206,457 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 102.362 65.786)
@@ -2757,8 +3671,20 @@
 		(uuid "039633d7-fd6e-45f9-bde1-a16480bbfd42")
 	)
 	(rectangle
-		(start 224.028 22.86)
-		(end 273.05 59.69)
+		(start 233.68 137.795)
+		(end 273.05 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2ba47afd-5d63-4eb7-8eef-a915f599d43b")
+	)
+	(rectangle
+		(start 224.028 67.945)
+		(end 273.05 95.885)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -2781,8 +3707,8 @@
 		(uuid "43cb66a4-9124-4f65-a284-b47db1fc21f7")
 	)
 	(rectangle
-		(start 182.88 39.37)
-		(end 213.36 46.99)
+		(start 168.275 50.8)
+		(end 198.755 58.42)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2794,7 +3720,7 @@
 	)
 	(rectangle
 		(start 21.082 138.684)
-		(end 90.932 158.242)
+		(end 96.52 158.242)
 		(stroke
 			(width 0)
 			(type default)
@@ -2805,8 +3731,20 @@
 		(uuid "58395f7a-1e3c-4b8a-a255-1275f4d2e235")
 	)
 	(rectangle
+		(start 205.105 19.685)
+		(end 273.05 59.817)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5b7f587a-7d72-4291-b2f5-9b1270b678a2")
+	)
+	(rectangle
 		(start 21.082 165.608)
-		(end 90.932 185.166)
+		(end 96.52 185.166)
 		(stroke
 			(width 0)
 			(type default)
@@ -2817,8 +3755,8 @@
 		(uuid "5eeb8ffb-752c-436a-bb54-aca0fa97d9f2")
 	)
 	(rectangle
-		(start 180.34 101.854)
-		(end 231.14 162.56)
+		(start 178.435 101.854)
+		(end 229.235 151.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -2842,7 +3780,7 @@
 	)
 	(rectangle
 		(start 22.352 19.558)
-		(end 220.98 59.69)
+		(end 203.2 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -2853,8 +3791,8 @@
 		(uuid "b8183fb0-84d4-49b2-9db0-d17be4cce52f")
 	)
 	(rectangle
-		(start 180.594 67.564)
-		(end 273.05 93.472)
+		(start 178.689 65.659)
+		(end 216.535 95.885)
 		(stroke
 			(width 0.127)
 			(type dash)
@@ -2890,7 +3828,7 @@
 	)
 	(text "M2096C MoCo CAN \nImplementation"
 		(exclude_from_sim no)
-		(at 223.52 19.05 0)
+		(at 223.52 64.77 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2903,7 +3841,7 @@
 	)
 	(text "Tereminal 25"
 		(exclude_from_sim no)
-		(at 81.28 171.45 0)
+		(at 85.09 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2965,7 +3903,7 @@
 	)
 	(text "SPI-DAC Implementation"
 		(exclude_from_sim no)
-		(at 198.12 64.77 0)
+		(at 195.58 63.5 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -2977,7 +3915,7 @@
 	)
 	(text "post: rev a maybe, dac\nalrady has buffers built in"
 		(exclude_from_sim no)
-		(at 198.12 43.18 0)
+		(at 184.15 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3043,7 +3981,7 @@
 		)
 		(uuid "5d8cf868-0a92-47ba-9ead-02e4fe02c3cc")
 	)
-	(text "Vth = =1.3V\nPower_mode_end (max) ~= 3.3V"
+	(text "Vth = = -1V\nNegative Logic"
 		(exclude_from_sim no)
 		(at 40.64 143.51 0)
 		(effects
@@ -3077,7 +4015,7 @@
 	)
 	(text "Tereminal 6"
 		(exclude_from_sim no)
-		(at 82.55 142.24 0)
+		(at 85.09 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3099,7 +4037,7 @@
 	)
 	(text "Tereminal 7"
 		(exclude_from_sim no)
-		(at 81.28 181.61 0)
+		(at 85.09 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3116,6 +4054,18 @@
 			)
 		)
 		(uuid "8ee2c3da-129f-4732-be68-d0a1e8fed98b")
+	)
+	(text "Isolated 3.3V -> 5V"
+		(exclude_from_sim no)
+		(at 219.71 17.78 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "a0f6bd80-03cc-4b23-a360-c8e104598518")
 	)
 	(text "Map Bit Level Shifting"
 		(exclude_from_sim no)
@@ -3141,7 +4091,7 @@
 	)
 	(text "unity gain buffer for dac?\n\ndac -> op amp buff -> output"
 		(exclude_from_sim no)
-		(at 198.12 31.75 0)
+		(at 185.42 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3153,7 +4103,7 @@
 	)
 	(text "Moco CAN Datatsheet:\nhttps://tinyurl.com/mocoCANdatasheet"
 		(exclude_from_sim no)
-		(at 246.38 54.61 0)
+		(at 248.92 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3163,7 +4113,7 @@
 	)
 	(text "Test Points"
 		(exclude_from_sim no)
-		(at 187.96 100.33 0)
+		(at 185.42 100.33 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -3197,7 +4147,7 @@
 	)
 	(text "Tereminal 5\n"
 		(exclude_from_sim no)
-		(at 83.82 154.94 0)
+		(at 86.36 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3225,9 +4175,21 @@
 		)
 		(uuid "ed6d124e-0bad-408b-ab6a-a9be15176475")
 	)
+	(text "MoCo LED"
+		(exclude_from_sim no)
+		(at 240.03 135.89 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "f04535cf-f43f-4c12-86d0-7d9487f7bfbe")
+	)
 	(text "Pin Header will be finalized at layout"
 		(exclude_from_sim no)
-		(at 203.2 160.02 0)
+		(at 204.47 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3252,6 +4214,12 @@
 		(uuid "081a84b1-0e25-457b-9c48-f91eb7d6bba6")
 	)
 	(junction
+		(at 81.28 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0853ffcf-8eb5-4339-aa59-e2b531fdb0b9")
+	)
+	(junction
 		(at 142.24 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3262,6 +4230,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e5c9b40-0e91-4034-a4f7-f8bc75288a15")
+	)
+	(junction
+		(at 227.33 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b9d931-2588-45c4-ac8f-d497057981f2")
+	)
+	(junction
+		(at 156.21 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b16d581-7c34-4933-9f78-fcf6e31455b6")
+	)
+	(junction
+		(at 227.33 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3782ef-5550-4497-8cda-c05456a80bf8")
 	)
 	(junction
 		(at 130.81 160.02)
@@ -3282,12 +4268,6 @@
 		(uuid "6381398a-c2db-4da5-8193-7038917ab7b4")
 	)
 	(junction
-		(at 156.21 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e95fd9d-98f9-4861-a274-9d3807e6373a")
-	)
-	(junction
 		(at 154.94 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3298,12 +4278,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e1d29fe-09fd-4906-a07e-87b066661cd4")
-	)
-	(junction
-		(at 49.53 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "811f0c63-0004-4210-ba69-ca652d84e214")
 	)
 	(junction
 		(at 129.54 49.53)
@@ -3324,16 +4298,28 @@
 		(uuid "a1f09c18-d914-4e36-9e4a-c0582b0847a7")
 	)
 	(junction
-		(at 156.21 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b45eb66f-da67-4e9c-9501-d0386e588845")
-	)
-	(junction
 		(at 49.53 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b61a73d7-b5be-47b2-a9a9-d6f1f9950d50")
+	)
+	(junction
+		(at 260.35 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be2e5ceb-7537-4cad-afc1-fa5ebf06ff0c")
+	)
+	(junction
+		(at 260.35 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0323d1c-bc6b-4d43-b788-8333bd7e7684")
+	)
+	(junction
+		(at 49.53 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdbf0d50-71fd-472d-8e8d-2666df182416")
 	)
 	(junction
 		(at 142.24 24.13)
@@ -3342,10 +4328,22 @@
 		(uuid "e21a954f-1ac1-4158-8aa1-864382eae29b")
 	)
 	(junction
+		(at 227.33 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f211b129-f87f-4fc3-a02f-bce1d818f863")
+	)
+	(junction
 		(at 130.81 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f407f9e8-fd08-4f64-8b9b-250b0d840a2b")
+	)
+	(junction
+		(at 156.21 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f582beff-132b-4f55-826f-418ff1d64058")
 	)
 	(no_connect
 		(at 74.93 115.57)
@@ -3428,13 +4426,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 77.47) (xy 77.47 77.47)
+			(xy 74.93 77.47) (xy 80.01 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "067f189c-df4e-452c-b68c-f4c456f7a7db")
+	)
+	(wire
+		(pts
+			(xy 240.03 148.59) (xy 241.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dc7e34-59fe-4ce2-9ee8-e7702e61f4a8")
 	)
 	(wire
 		(pts
@@ -3508,16 +4516,6 @@
 	)
 	(wire
 		(pts
-			(xy 9.0291 2.0957) (xy 10.2991 2.0957)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "145ecefd-fa34-4f59-b8b8-665a168f9e16")
-	)
-	(wire
-		(pts
 			(xy 138.43 180.34) (xy 139.7 180.34)
 		)
 		(stroke
@@ -3538,13 +4536,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 77.47) (xy 78.74 76.2)
+			(xy 227.33 34.29) (xy 227.33 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "182e8d0e-7945-4b0f-b4c4-501225634202")
+		(uuid "1874c730-1ce4-4046-9ac0-74d4c50baaeb")
 	)
 	(wire
 		(pts
@@ -3555,6 +4553,16 @@
 			(type default)
 		)
 		(uuid "1918dff0-4539-4ae8-942a-829f3c80cdcf")
+	)
+	(wire
+		(pts
+			(xy 227.33 29.21) (xy 229.87 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1982a74e-67f3-4414-808c-a01d20c0ea1a")
 	)
 	(wire
 		(pts
@@ -3588,13 +4596,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 39.37) (xy 165.1 39.37)
+			(xy 156.21 39.37) (xy 167.64 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "205f6ce8-ab5c-4728-a451-7630f7058136")
+	)
+	(wire
+		(pts
+			(xy 227.33 49.53) (xy 229.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c66cb9-43b2-4a4e-91c8-9360bb07a77a")
 	)
 	(wire
 		(pts
@@ -3618,6 +4636,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 34.29) (xy 262.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b7b5a7-1add-431d-b599-0badefa27bb4")
+	)
+	(wire
+		(pts
 			(xy 142.24 24.13) (xy 142.24 29.21)
 		)
 		(stroke
@@ -3628,13 +4656,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 31.75) (xy 82.55 31.75)
+			(xy 80.01 31.75) (xy 81.28 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2cb09027-c9b0-4202-9e83-940165d06b84")
+	)
+	(wire
+		(pts
+			(xy 260.35 29.21) (xy 257.81 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8fdec1-42a6-40bd-86f7-fe2a9a8fa75d")
 	)
 	(wire
 		(pts
@@ -3808,6 +4846,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 30.48) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6a6f80-8a5d-45bd-92f5-d4835f5abd63")
+	)
+	(wire
+		(pts
 			(xy 48.26 179.07) (xy 49.53 177.8)
 		)
 		(stroke
@@ -3815,6 +4863,16 @@
 			(type default)
 		)
 		(uuid "4a96e8ad-5c36-4484-97f6-e65e1a881438")
+	)
+	(wire
+		(pts
+			(xy 217.17 29.21) (xy 215.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d28c6aa-566a-4b10-9742-6028d2d172ac")
 	)
 	(wire
 		(pts
@@ -3878,6 +4936,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 29.21) (xy 227.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58573c4c-aa84-4105-9ca7-d16ef2ba956b")
+	)
+	(wire
+		(pts
 			(xy 142.24 109.22) (xy 140.97 107.95)
 		)
 		(stroke
@@ -3938,6 +5006,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 29.21) (xy 260.35 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e11cfa-c2cd-4bbc-9d11-eb77b58a3359")
+	)
+	(wire
+		(pts
 			(xy 255.27 107.95) (xy 255.27 111.76)
 		)
 		(stroke
@@ -3945,6 +5023,36 @@
 			(type default)
 		)
 		(uuid "63f02162-5bb4-4995-b98c-b7e727f4e849")
+	)
+	(polyline
+		(pts
+			(xy 184.15 31.75) (xy 184.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b669e8-21ee-43b9-b128-cb5b48bff55f")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d74e29-4bed-4ede-817a-3beeac72be61")
+	)
+	(wire
+		(pts
+			(xy 260.35 44.45) (xy 260.35 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e36c63-7962-48ac-8dd4-56bac6fe0705")
 	)
 	(wire
 		(pts
@@ -3968,13 +5076,13 @@
 	)
 	(wire
 		(pts
-			(xy 9.0291 7.1757) (xy 10.2991 7.1757)
+			(xy 260.35 44.45) (xy 261.62 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a0136dd-e582-4243-acdc-bb26966537e2")
+		(uuid "6c1d4447-5193-445d-a2e2-53158088f8e1")
 	)
 	(wire
 		(pts
@@ -3985,16 +5093,6 @@
 			(type default)
 		)
 		(uuid "6c36872e-ed65-4d6a-a3d6-b8d3470285db")
-	)
-	(wire
-		(pts
-			(xy 9.0291 9.7157) (xy 10.2991 9.7157)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c65548e-924f-440c-a418-ca3b30e1cd0b")
 	)
 	(wire
 		(pts
@@ -4038,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 153.67) (xy 257.81 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788db510-6623-4166-a424-0bb5cae75541")
+	)
+	(wire
+		(pts
 			(xy 39.37 105.41) (xy 41.91 105.41)
 		)
 		(stroke
@@ -4045,16 +5153,6 @@
 			(type default)
 		)
 		(uuid "79618aa3-e645-405d-a9e3-e4592b39cebd")
-	)
-	(wire
-		(pts
-			(xy 151.13 87.63) (xy 153.67 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a5424e4-5643-428f-9e76-111c827c7089")
 	)
 	(wire
 		(pts
@@ -4068,13 +5166,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 153.67 85.09)
+			(xy 215.9 44.45) (xy 227.33 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cda73a4-156f-49b6-ac8d-e2136a7ae1f3")
+		(uuid "7d737c18-32fa-4a06-b2b4-462467d1aadc")
 	)
 	(wire
 		(pts
@@ -4188,6 +5286,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 34.29) (xy 219.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "919d17a4-9047-42f4-a9de-94a11b169e07")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36) (xy 156.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9299f5f6-ce17-4eb9-b18a-0aef12da510c")
+	)
+	(wire
+		(pts
 			(xy 125.73 34.29) (xy 128.27 36.83)
 		)
 		(stroke
@@ -4208,6 +5326,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 31.75) (xy 82.55 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f84c02-d001-4383-b120-bdbad368c118")
+	)
+	(wire
+		(pts
 			(xy 57.15 170.18) (xy 58.42 168.91)
 		)
 		(stroke
@@ -4215,6 +5343,16 @@
 			(type default)
 		)
 		(uuid "9812689f-8567-4e32-b56a-49f0273625ca")
+	)
+	(polyline
+		(pts
+			(xy 182.88 49.53) (xy 184.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993d1d43-375b-4418-aee0-28f72edb0e2c")
 	)
 	(wire
 		(pts
@@ -4235,16 +5373,6 @@
 			(type default)
 		)
 		(uuid "9bfab4e8-ae4f-49ab-8599-9db37972cee7")
-	)
-	(wire
-		(pts
-			(xy 9.0291 4.6357) (xy 10.2991 4.6357)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d79744f-1ef3-4b95-9dda-9237a2f32b42")
 	)
 	(wire
 		(pts
@@ -4298,6 +5426,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 26.67) (xy 257.81 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2545482-651a-4964-a96b-39adecd2009b")
+	)
+	(wire
+		(pts
 			(xy 142.24 29.21) (xy 142.24 31.75)
 		)
 		(stroke
@@ -4315,6 +5453,26 @@
 			(type default)
 		)
 		(uuid "a462bfb2-3d8f-4700-9c87-4ac5033edbcf")
+	)
+	(wire
+		(pts
+			(xy 227.33 34.29) (xy 229.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d8e266-1cfc-4e8c-addf-9f65818a988b")
+	)
+	(wire
+		(pts
+			(xy 153.67 85.09) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5197926-a6cc-4e8a-8780-85110458491a")
 	)
 	(wire
 		(pts
@@ -4378,23 +5536,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 46.99) (xy 165.1 46.99)
+			(xy 156.21 46.99) (xy 167.64 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5644fcf-f3cf-414c-848f-b66ceaeaafb4")
-	)
-	(wire
-		(pts
-			(xy 77.47 102.87) (xy 78.74 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b588e73c-b6ee-4abc-adb1-b7e76f67b85c")
 	)
 	(wire
 		(pts
@@ -4448,7 +5596,17 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 102.87) (xy 77.47 102.87)
+			(xy 227.33 44.45) (xy 229.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba54073e-23a5-40f8-a8ac-ab7028fd4be8")
+	)
+	(wire
+		(pts
+			(xy 74.93 102.87) (xy 80.01 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4478,6 +5636,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 52.07) (xy 241.3 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03215e8-385e-4c19-882f-524cf0d2f5d6")
+	)
+	(wire
+		(pts
 			(xy 153.67 95.25) (xy 154.94 93.98)
 		)
 		(stroke
@@ -4485,6 +5653,16 @@
 			(type default)
 		)
 		(uuid "c24afb69-abc7-4504-80e7-4944d3c614b8")
+	)
+	(wire
+		(pts
+			(xy 229.87 26.67) (xy 240.03 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fedaaf-fa60-4522-bf43-de5a2391a613")
 	)
 	(wire
 		(pts
@@ -4658,6 +5836,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 83.82) (xy 156.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd769f9-d137-4f29-b213-e72b791dac98")
+	)
+	(wire
+		(pts
 			(xy 38.1 36.83) (xy 46.99 36.83)
 		)
 		(stroke
@@ -4665,6 +5853,16 @@
 			(type default)
 		)
 		(uuid "d08eae50-6ff6-48b6-a2ab-5a425aef8cc4")
+	)
+	(wire
+		(pts
+			(xy 151.13 87.63) (xy 153.67 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d73edd-dfb4-4077-b1e6-7a5296dad533")
 	)
 	(wire
 		(pts
@@ -4695,6 +5893,36 @@
 			(type default)
 		)
 		(uuid "d70310e0-ddfc-4966-8a6b-b0c9d31c110f")
+	)
+	(wire
+		(pts
+			(xy 227.33 43.18) (xy 227.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88dbb4d-9c5f-4252-a030-3e0c0e348161")
+	)
+	(polyline
+		(pts
+			(xy 184.15 29.21) (xy 184.15 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98709a8-ef89-4705-9d23-36236c8537aa")
+	)
+	(polyline
+		(pts
+			(xy 184.15 50.8) (xy 185.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc417d2f-1de0-447c-bf52-bd39e3bde821")
 	)
 	(wire
 		(pts
@@ -4808,16 +6036,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 80.01 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec8ace8a-ce58-4be6-abd5-7d27966503a7")
-	)
-	(wire
-		(pts
 			(xy 152.4 104.14) (xy 156.21 104.14)
 		)
 		(stroke
@@ -4865,6 +6083,36 @@
 			(type default)
 		)
 		(uuid "ef7456a3-3a76-4ee4-a029-7291031588bd")
+	)
+	(wire
+		(pts
+			(xy 248.92 52.07) (xy 257.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27b7674-4e71-4156-ab90-98841df5e808")
+	)
+	(wire
+		(pts
+			(xy 151.13 85.09) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a69219-7c41-4cb9-9c5f-1a998f542558")
+	)
+	(wire
+		(pts
+			(xy 260.35 49.53) (xy 257.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51f2047-0363-4a91-9437-a72058910bfe")
 	)
 	(wire
 		(pts
@@ -4917,7 +6165,7 @@
 		(uuid "fe7c998a-1a1e-4ca8-9b1b-20f9f33fbaf5")
 	)
 	(image
-		(at 233.426 36.576)
+		(at 234.061 81.026)
 		(scale 0.120207)
 		(uuid "0bab9f19-3f41-44c9-8328-4b8bc22918b6")
 		(data "iVBORw0KGgoAAAANSUhEUgAABoUAAANfCAYAAAAfItSrAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -12355,7 +13603,7 @@
 		)
 	)
 	(image
-		(at 233.3762 28.1012)
+		(at 234.0112 72.5512)
 		(scale 0.110218)
 		(uuid "244f0c30-018b-4501-a276-7fb627d470e4")
 		(data "iVBORw0KGgoAAAANSUhEUgAABtkAAAKKCAYAAABYjjRFAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -18094,7 +19342,7 @@
 		)
 	)
 	(image
-		(at 254.508 39.624)
+		(at 255.143 76.454)
 		(scale 0.139171)
 		(uuid "5bf33f79-e2eb-44a5-982f-7494ea3ebe76")
 		(data "iVBORw0KGgoAAAANSUhEUgAACEYAAASOCAYAAADCGbsLAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -22816,8 +24064,8 @@
 		)
 	)
 	(image
-		(at 232.1991 45.4891)
-		(scale 0.094444)
+		(at 266.4891 73.4291)
+		(scale 0.0676134)
 		(uuid "6ef73cca-a805-40b1-99b0-dae3f25ec79a")
 		(data "iVBORw0KGgoAAAANSUhEUgAABpsAAATwCAYAAAALqPhFAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3dmXnMed5vdvvHvuS2Xt2FcSJMVFrVGP1G6P2+223ce+8fE5vvB/6OMLX830zLFnujWtlloi"
@@ -31626,8 +32874,8 @@
 		)
 	)
 	(image
-		(at 236.601 81.026)
-		(scale 0.206766)
+		(at 197.866 84.201)
+		(scale 0.200051)
 		(uuid "8e0655b5-8a87-4d57-85a9-5a502bc5dc28")
 		(data "iVBORw0KGgoAAAANSUhEUgAAB58AAAQjCAYAAABXZ+l+AAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3Xd0VNX+9/FPEkiBEBJ6M1QVBSR0qUFAQEAhUq/oBbzAVRTRK+oVKSL4gEizNyxIBCEgoAER"
@@ -34428,7 +35676,7 @@
 		)
 	)
 	(image
-		(at 202.692 73.025)
+		(at 196.977 68.58)
 		(scale 0.436003)
 		(uuid "9a4a83a7-2847-48fa-b607-8c482bb7767a")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA2sAAABqCAYAAAAiAcmoAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -35012,8 +36260,8 @@
 		)
 	)
 	(image
-		(at 202.565 78.359)
-		(scale 0.186247)
+		(at 191.77 72.644)
+		(scale 0.123628)
 		(uuid "ac6fd659-51ab-44e0-9aa9-8e2fa6d826f9")
 		(data "iVBORw0KGgoAAAANSUhEUgAAB/IAAAFeCAYAAACW+lcGAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzs3Xd8FVX+//F3EkKClNClB+lSpCogJYAICYiA6ypiA5VVEEVR17KKuq6IrCvKIuzaQFiK2EAW"
@@ -47942,7 +49190,7 @@
 		)
 	)
 	(label "Map_Bit0_Gate"
-		(at 214.63 125.73 0)
+		(at 213.36 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47974,7 +49222,7 @@
 		(uuid "08271f97-3c86-433b-973d-aff06f76b6cb")
 	)
 	(label "PwrMode_Gate"
-		(at 214.63 105.41 0)
+		(at 213.36 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48003,6 +49251,16 @@
 		)
 		(uuid "2473c705-c356-4596-85e7-f70e982d17ad")
 	)
+	(label "+5V_ISO"
+		(at 262.89 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30a23a24-9596-46bd-8703-3798b1de00b0")
+	)
 	(label "SPI_MOSI_ISO"
 		(at 81.28 39.37 0)
 		(effects
@@ -48014,7 +49272,7 @@
 		(uuid "34c5f1ee-4b7c-43c7-8270-2d99bf182f64")
 	)
 	(label "Map_Bit1_Gate"
-		(at 214.63 128.27 0)
+		(at 213.36 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48022,16 +49280,6 @@
 			(justify left bottom)
 		)
 		(uuid "374635bd-0bc9-4310-a85f-6d26acc02bbd")
-	)
-	(label "map_bit3"
-		(at 9.0291 9.7157 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e8d9052-5d09-4c1b-a643-cb5900346910")
 	)
 	(label "Pulse_ADC_DIV"
 		(at 74.93 90.17 0)
@@ -48055,8 +49303,18 @@
 		)
 		(uuid "4d7289ae-18d6-46f1-8cd8-0d7a288fdc36")
 	)
+	(label "+5V_ISO"
+		(at 119.38 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52e8cb72-6318-485f-8f14-3ff369d6fe3f")
+	)
 	(label "F{slash}R_Mode"
-		(at 214.63 107.95 0)
+		(at 213.36 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48075,16 +49333,6 @@
 		)
 		(uuid "59a04f2b-948c-4029-a62d-f109b0250f01")
 	)
-	(label "map_bit2"
-		(at 9.0291 7.1757 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f1ebeec-96c9-4274-95a2-99e6232d9e95")
-	)
 	(label "DAC_CS"
 		(at 38.1 41.91 0)
 		(effects
@@ -48094,6 +49342,16 @@
 			(justify left bottom)
 		)
 		(uuid "623c5434-52a3-47c1-b747-20de594ce345")
+	)
+	(label "+5V_ISO"
+		(at 90.17 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65699fff-a192-4e0b-be95-97667b32be13")
 	)
 	(label "F{slash}R_Mode_Gate"
 		(at 74.93 85.09 0)
@@ -48106,7 +49364,7 @@
 		(uuid "65c53840-c5b0-49fd-afe2-bd24fa6ac893")
 	)
 	(label "SPI_MOSI_ISO"
-		(at 214.63 110.49 0)
+		(at 213.36 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48116,7 +49374,7 @@
 		(uuid "667bd704-e9dc-454b-b2c1-1c7264645afe")
 	)
 	(label "Map_Bit3_Gate"
-		(at 214.63 133.35 0)
+		(at 213.36 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48124,6 +49382,26 @@
 			(justify left bottom)
 		)
 		(uuid "730c618a-9021-4737-a0a0-f4dcb60f9191")
+	)
+	(label "+5V_ISO"
+		(at 240.03 148.59 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79d4a84b-2795-4043-bb48-c237734e8444")
+	)
+	(label "+5V_ISO"
+		(at 80.01 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e8a9035-3d9f-4c9a-967d-97f6c75fc3ab")
 	)
 	(label "Map_Bit3_Gate"
 		(at 128.27 173.99 180)
@@ -48136,7 +49414,7 @@
 		(uuid "7fb7ab65-3bd1-4d5c-a5b8-cd0fd5877e8e")
 	)
 	(label "SPI_CLK_ISO"
-		(at 214.63 115.57 0)
+		(at 213.36 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48165,6 +49443,16 @@
 		)
 		(uuid "83b4b422-ee15-4607-86be-7fae80afc237")
 	)
+	(label "+5V_ISO"
+		(at 83.82 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85037f56-0ff3-4a7b-bd95-d464a84a68d0")
+	)
 	(label "Map_Bit3_Gate"
 		(at 74.93 113.03 0)
 		(effects
@@ -48176,7 +49464,7 @@
 		(uuid "9304b184-16eb-416e-9d2e-00613252fb4c")
 	)
 	(label "DAC_CS"
-		(at 214.63 123.19 0)
+		(at 213.36 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48185,18 +49473,38 @@
 		)
 		(uuid "998665b3-e67b-4e8d-9ad9-6dca0b1ecb6e")
 	)
-	(label "map_bit1"
-		(at 9.0291 4.6357 180)
+	(label "+5V_ISO"
+		(at 153.67 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "a6efe74c-36c4-4098-870d-da7056ee6ea3")
+		(uuid "a5487795-3c50-4a80-9148-29438991c922")
+	)
+	(label "+5V_ISO"
+		(at 213.36 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a854fe08-0039-4ed5-bb81-96163ca2b80e")
+	)
+	(label "+5V_ISO"
+		(at 80.01 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa391be2-dec2-425e-9cde-1ddd74d2fd9d")
 	)
 	(label "DAC_MOSI"
-		(at 214.63 120.65 0)
+		(at 213.36 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48236,7 +49544,7 @@
 		(uuid "b3bde7b2-b5ce-4f03-b2a5-8356fd14e408")
 	)
 	(label "SPI_CS_ISO"
-		(at 214.63 113.03 0)
+		(at 213.36 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48246,7 +49554,7 @@
 		(uuid "bd37e0b2-56b8-4f78-a353-9bfdc65b5dc8")
 	)
 	(label "Map_Bit2_Gate"
-		(at 214.63 130.81 0)
+		(at 213.36 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48295,15 +49603,55 @@
 		)
 		(uuid "c89dce3f-54db-412e-9699-d54479d2daef")
 	)
-	(label "map_bit0"
-		(at 9.0291 2.0957 180)
+	(label "+5V_ISO"
+		(at 118.11 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d324f6a8-2cc1-4b9a-b53d-47aa676de3c4")
+		(uuid "c9af18f6-df6d-403f-a9d0-966ef509d048")
+	)
+	(label "+5V_ISO"
+		(at 140.97 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cea16cb2-6338-439a-a833-182127380933")
+	)
+	(label "+5V_ISO"
+		(at 152.4 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf4b44c6-e0f8-4d55-a2ca-b89a63f3ee72")
+	)
+	(label "+5V_ISO"
+		(at 83.82 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfb221b6-4ef7-4b63-9ed0-fb881399ea71")
+	)
+	(label "+5V_ISO"
+		(at 83.82 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea951a85-8b50-4da0-b967-93c3e8bf30e5")
 	)
 	(label "PwrMode_Gate"
 		(at 45.72 148.59 180)
@@ -48316,7 +49664,7 @@
 		(uuid "f38e4e07-9b2c-4047-8ff0-547b5cd0e5cc")
 	)
 	(label "DAC_CLK"
-		(at 214.63 118.11 0)
+		(at 213.36 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48337,7 +49685,7 @@
 	)
 	(hierarchical_label "Map_Bit1_G"
 		(shape input)
-		(at 190.5 140.97 0)
+		(at 189.23 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48348,7 +49696,7 @@
 	)
 	(hierarchical_label "LDAC"
 		(shape input)
-		(at 190.5 115.57 0)
+		(at 189.23 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48401,42 +49749,9 @@
 		)
 		(uuid "0fda1216-54e7-4d2f-b090-05c4b65ea095")
 	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 59.69 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ff5e6ab-5594-4335-b26a-b25156833a47")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 90.17 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1320902b-7de6-4cde-afce-b3bebf738ac7")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 78.74 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13faebad-2f96-42cc-9271-b06f7950941b")
-	)
 	(hierarchical_label "FWD_EN"
 		(shape input)
-		(at 190.5 118.11 0)
+		(at 189.23 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48444,17 +49759,6 @@
 			(justify left)
 		)
 		(uuid "1c6eb4bf-ae51-46a1-af90-427e6c535e16")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 83.82 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1cbd5278-d1f2-46dc-a97b-05b98646ae2b")
 	)
 	(hierarchical_label "Map_Bit0_G"
 		(shape input)
@@ -48522,17 +49826,6 @@
 		)
 		(uuid "2a3ff910-7c31-49a3-a687-c0b943c27aca")
 	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 83.82 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c128198-8fac-4217-bbc3-13f554156c0e")
-	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 38.1 96.52 180)
@@ -48543,6 +49836,17 @@
 			(justify right)
 		)
 		(uuid "2d0c2c76-909d-4137-beb1-b1828d475005")
+	)
+	(hierarchical_label "Brake_Vref"
+		(shape input)
+		(at 156.21 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2daf381b-7e9c-494a-a25e-48902d27f056")
 	)
 	(hierarchical_label "Pulse_ADC_ISO"
 		(shape output)
@@ -48557,7 +49861,7 @@
 	)
 	(hierarchical_label "Mtr_CANL"
 		(shape bidirectional)
-		(at 190.5 123.19 0)
+		(at 189.23 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48565,6 +49869,17 @@
 			(justify left)
 		)
 		(uuid "3627ca5d-ec70-4da8-99ab-900ccbc521a7")
+	)
+	(hierarchical_label "LED+"
+		(shape output)
+		(at 250.19 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3abf3269-0761-46f2-baea-4c9c710a51d3")
 	)
 	(hierarchical_label "GND_ISO"
 		(shape bidirectional)
@@ -48587,17 +49902,6 @@
 			(justify right)
 		)
 		(uuid "3e5762d3-49f8-4665-beba-2e2806e8503c")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 118.11 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ecb3cc1-a9d1-429f-b670-edcc55856b90")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -48653,17 +49957,6 @@
 			(justify right)
 		)
 		(uuid "4cf44f78-3c2d-4873-8499-61b2697ea1ca")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 153.67 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4fded760-d679-41a8-85b2-dc6f25ffbb4f")
 	)
 	(hierarchical_label "Map_Bit2_G"
 		(shape input)
@@ -48733,7 +50026,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
-		(at 190.5 128.27 0)
+		(at 189.23 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48741,6 +50034,17 @@
 			(justify left)
 		)
 		(uuid "5be80c07-cbb9-4b22-8b2b-81f8bd6efd46")
+	)
+	(hierarchical_label "PWR_MODE_IN"
+		(shape output)
+		(at 59.69 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f4d1297-77ae-45d8-96a9-d3857aafff02")
 	)
 	(hierarchical_label "GND_ISO"
 		(shape bidirectional)
@@ -48764,16 +50068,16 @@
 		)
 		(uuid "65e19994-d507-4a1d-a23c-c608689435fc")
 	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 156.21 36.83 0)
+	(hierarchical_label "LED+"
+		(shape output)
+		(at 248.92 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "69fb6268-095d-4133-a371-a84723738870")
+		(uuid "6894f280-41ba-4b22-abc1-1006f43a2937")
 	)
 	(hierarchical_label "GND_ISO"
 		(shape bidirectional)
@@ -48808,20 +50112,20 @@
 		)
 		(uuid "6f10a92f-e11f-423a-97c6-9399a28a0732")
 	)
-	(hierarchical_label "+5V_Mtr"
+	(hierarchical_label "Accel_Vref"
 		(shape input)
-		(at 119.38 52.07 180)
+		(at 156.21 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "706497ed-de05-42cb-b237-0078611ccf81")
+		(uuid "70e5ea21-400a-43be-8244-9fb9477425a0")
 	)
 	(hierarchical_label "PWR_MODE_EN"
 		(shape input)
-		(at 190.5 120.65 0)
+		(at 189.23 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48854,7 +50158,7 @@
 	)
 	(hierarchical_label "GND_ISO"
 		(shape bidirectional)
-		(at 190.5 135.89 0)
+		(at 189.23 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48873,17 +50177,6 @@
 			(justify right)
 		)
 		(uuid "84c4d5da-b7b5-4457-b86f-931105e201c9")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 156.21 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "861ecb38-6734-4384-a5bf-6a51c839298f")
 	)
 	(hierarchical_label "GND_ISO"
 		(shape bidirectional)
@@ -48909,7 +50202,7 @@
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 190.5 105.41 0)
+		(at 189.23 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48918,9 +50211,20 @@
 		)
 		(uuid "8ef26b4f-6dd3-4239-9ba8-9c08db95fc3d")
 	)
+	(hierarchical_label "F{slash}R_MODE_OUT"
+		(shape input)
+		(at 59.69 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95585c1a-9454-4791-8db9-7460de19d815")
+	)
 	(hierarchical_label "Mtr_CANL"
 		(shape bidirectional)
-		(at 153.67 87.63 0)
+		(at 156.21 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48940,9 +50244,20 @@
 		)
 		(uuid "9938f229-6c76-41b1-a971-702f6f75cb7b")
 	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 215.9 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a64e5f5-8be7-4f7a-b759-cf608c0dc055")
+	)
 	(hierarchical_label "Map_Bit2_G"
 		(shape input)
-		(at 190.5 143.51 0)
+		(at 189.23 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48961,28 +50276,6 @@
 			(justify right)
 		)
 		(uuid "9c3ccee3-fe41-49ec-b0ea-ee39f5754981")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 83.82 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d6889a6-424c-4160-9340-4c6234b59c44")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 80.01 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a42408db-2337-4e4f-a60b-6ce508e20946")
 	)
 	(hierarchical_label "GND_ISO"
 		(shape bidirectional)
@@ -49019,7 +50312,7 @@
 	)
 	(hierarchical_label "Brake_DAC"
 		(shape output)
-		(at 190.5 110.49 0)
+		(at 189.23 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49027,17 +50320,6 @@
 			(justify left)
 		)
 		(uuid "ab98789f-0d85-4b7c-a99e-d479e9b52a6f")
-	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 140.97 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ac3b0530-c262-4efa-abbf-945d2b33e521")
 	)
 	(hierarchical_label "GND_ISO"
 		(shape bidirectional)
@@ -49063,7 +50345,7 @@
 	)
 	(hierarchical_label "Map_Bit3_G"
 		(shape input)
-		(at 190.5 146.05 0)
+		(at 189.23 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49083,6 +50365,17 @@
 		)
 		(uuid "b6e30b46-7c4c-4cb3-b483-274131cc62bc")
 	)
+	(hierarchical_label "GND_ISO"
+		(shape bidirectional)
+		(at 261.62 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7bccee5-b9e9-41a0-ba2e-23a3d535d2e9")
+	)
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 39.37 102.87 180)
@@ -49094,31 +50387,9 @@
 		)
 		(uuid "ba6b6cc9-5899-4fb8-88fe-5dcefa19f0e6")
 	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 190.5 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0858030-01c4-4417-9aef-94f785159d5d")
-	)
-	(hierarchical_label "GND_ISO"
-		(shape bidirectional)
-		(at 59.69 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c7896c13-26a1-484d-a71a-c4383122fa19")
-	)
 	(hierarchical_label "Mtr_CANH"
 		(shape bidirectional)
-		(at 190.5 125.73 0)
+		(at 189.23 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49129,7 +50400,7 @@
 	)
 	(hierarchical_label "Brake_DAC"
 		(shape output)
-		(at 165.1 46.99 0)
+		(at 167.64 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49228,7 +50499,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 190.5 107.95 0)
+		(at 189.23 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49237,7 +50508,7 @@
 		)
 		(uuid "dfffa3b5-5111-4f9d-8960-5f6cc1516de1")
 	)
-	(hierarchical_label "F{slash}R_MODE_OUT"
+	(hierarchical_label "F{slash}R_MODE_IN"
 		(shape input)
 		(at 59.69 168.91 0)
 		(effects
@@ -49250,7 +50521,7 @@
 	)
 	(hierarchical_label "Accel_DAC"
 		(shape output)
-		(at 165.1 39.37 0)
+		(at 167.64 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49261,7 +50532,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 190.5 130.81 0)
+		(at 189.23 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49269,6 +50540,17 @@
 			(justify left)
 		)
 		(uuid "e90246e4-72da-4358-9696-c134548b2d02")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 215.9 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e95fd079-74a4-45d1-b601-1c9d0b8c0f00")
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
@@ -49303,20 +50585,9 @@
 		)
 		(uuid "eebcc178-62a1-47fc-9ad7-3e388396267b")
 	)
-	(hierarchical_label "+5V_Mtr"
-		(shape input)
-		(at 152.4 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eff2bd79-63ca-48da-ae06-59a2c66ab87b")
-	)
 	(hierarchical_label "Map_Bit0_G"
 		(shape input)
-		(at 190.5 138.43 0)
+		(at 189.23 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49327,7 +50598,7 @@
 	)
 	(hierarchical_label "Mtr_CANH"
 		(shape bidirectional)
-		(at 153.67 85.09 0)
+		(at 156.21 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49369,9 +50640,20 @@
 		)
 		(uuid "f792fb56-fb88-4d7b-8c8b-aa104e6fc1f9")
 	)
+	(hierarchical_label "GND_ISO"
+		(shape bidirectional)
+		(at 260.35 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc57b09d-8587-4401-9c5c-16408f24a8aa")
+	)
 	(hierarchical_label "Accel_DAC"
 		(shape output)
-		(at 190.5 113.03 0)
+		(at 189.23 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -49382,7 +50664,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 105.41 90)
+		(at 213.36 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49391,8 +50673,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0066bf29-012a-4d12-b897-9668ac07863e")
-		(property "Reference" "TP?"
-			(at 208.28 105.41 90)
+		(property "Reference" "TP26"
+			(at 207.01 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49402,7 +50684,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 102.87 90)
+			(at 210.058 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49413,7 +50695,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 100.33 0)
+			(at 213.36 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49424,7 +50706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 100.33 0)
+			(at 213.36 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49435,7 +50717,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 105.41 0)
+			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49451,7 +50733,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -49459,7 +50741,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 146.05 90)
+		(at 189.23 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49468,8 +50750,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03af4dfa-e438-4efc-b4eb-de53a3fc01c0")
-		(property "Reference" "TP?"
-			(at 184.15 146.05 90)
+		(property "Reference" "TP25"
+			(at 182.88 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49479,7 +50761,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 143.51 90)
+			(at 185.928 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49490,7 +50772,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 140.97 0)
+			(at 189.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49501,7 +50783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 140.97 0)
+			(at 189.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49512,7 +50794,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 146.05 0)
+			(at 189.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49528,7 +50810,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -49536,7 +50818,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 113.03 90)
+		(at 213.36 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49545,8 +50827,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05e9a225-fa44-4989-b85c-5b02dade96b6")
-		(property "Reference" "TP?"
-			(at 208.28 113.03 90)
+		(property "Reference" "TP29"
+			(at 207.01 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49556,7 +50838,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 110.49 90)
+			(at 210.058 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49567,7 +50849,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 107.95 0)
+			(at 213.36 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49578,7 +50860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 107.95 0)
+			(at 213.36 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49589,7 +50871,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 113.03 0)
+			(at 213.36 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49605,7 +50887,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -49613,7 +50895,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 115.57 90)
+		(at 189.23 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49622,8 +50904,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b8024df-964a-4449-b235-04c344234641")
-		(property "Reference" "TP?"
-			(at 184.15 115.57 90)
+		(property "Reference" "TP14"
+			(at 182.88 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49633,7 +50915,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 113.03 90)
+			(at 185.928 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49644,7 +50926,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 110.49 0)
+			(at 189.23 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49655,7 +50937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 110.49 0)
+			(at 189.23 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49666,7 +50948,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 115.57 0)
+			(at 189.23 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49682,7 +50964,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -49690,7 +50972,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 120.65 90)
+		(at 189.23 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49699,8 +50981,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e68bb77-3239-4bac-b9b4-699d212900b3")
-		(property "Reference" "TP?"
-			(at 184.15 120.65 90)
+		(property "Reference" "TP16"
+			(at 182.88 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49710,7 +50992,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 118.11 90)
+			(at 185.928 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49721,7 +51003,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 115.57 0)
+			(at 189.23 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49732,7 +51014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 115.57 0)
+			(at 189.23 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49743,7 +51025,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 120.65 0)
+			(at 189.23 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49759,7 +51041,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -49767,7 +51049,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 138.43 90)
+		(at 189.23 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49776,8 +51058,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10ba86af-62fa-4efb-b923-00b63331e9f1")
-		(property "Reference" "TP?"
-			(at 184.15 138.43 90)
+		(property "Reference" "TP22"
+			(at 182.88 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49787,7 +51069,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 135.89 90)
+			(at 185.928 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49798,7 +51080,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 133.35 0)
+			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49809,7 +51091,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 133.35 0)
+			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49820,7 +51102,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 138.43 0)
+			(at 189.23 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49836,7 +51118,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -49844,7 +51126,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 113.03 90)
+		(at 189.23 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49853,8 +51135,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "189ed347-be70-416a-b694-703dcb478d7e")
-		(property "Reference" "TP?"
-			(at 184.15 113.03 90)
+		(property "Reference" "TP13"
+			(at 182.88 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49864,7 +51146,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 110.49 90)
+			(at 185.928 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49875,7 +51157,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 107.95 0)
+			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49886,7 +51168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 107.95 0)
+			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49897,7 +51179,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 113.03 0)
+			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49913,7 +51195,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -49921,7 +51203,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 118.11 90)
+		(at 213.36 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49930,8 +51212,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a64ddfb-b222-4bfb-81ab-80946711d871")
-		(property "Reference" "TP?"
-			(at 208.28 118.11 90)
+		(property "Reference" "TP31"
+			(at 207.01 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49941,7 +51223,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 115.57 90)
+			(at 210.058 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49952,7 +51234,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 113.03 0)
+			(at 213.36 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49963,7 +51245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 113.03 0)
+			(at 213.36 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49974,7 +51256,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 118.11 0)
+			(at 213.36 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49990,7 +51272,226 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ROE-3.305S:ROE-3.305S")
+		(at 245.11 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24c8a74e-978e-4515-b051-15b65fea0642")
+		(property "Reference" "PS1"
+			(at 245.11 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ROE-3.305S"
+			(at 245.745 40.005 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ROE-3.305S:CONV_ROE-3.305S"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/887/1/ROE.pdf"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1W DC/DC-Converter 'ECONOLINE' SIP4 1kV unreg"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Recom Power"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.00mm"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ROE-3.305S/Recom+Power/view-part/?ref=eda"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "5"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ROE-3.305S/Recom+Power/view-part/?ref=snap"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "ROE-3.305S"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "RECOM"
+			(at 245.11 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "3"
+			(uuid "48a72fc7-0724-4e68-8f01-7711de4f6bf4")
+		)
+		(pin "4"
+			(uuid "942c239c-0060-4f86-a176-d6329c2680a9")
+		)
+		(pin "1"
+			(uuid "c661d9f9-4f10-494a-945a-082c918bfed8")
+		)
+		(pin "2"
+			(uuid "963cf52f-f36c-46ff-8435-da26c70de9cc")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -49998,7 +51499,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 128.27 90)
+		(at 213.36 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50007,8 +51508,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24ea9aa0-0808-43ba-a13d-51131c9e3b26")
-		(property "Reference" "TP?"
-			(at 208.28 128.27 90)
+		(property "Reference" "TP35"
+			(at 207.01 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50018,7 +51519,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 125.73 90)
+			(at 210.058 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50029,7 +51530,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 123.19 0)
+			(at 213.36 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50040,7 +51541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 123.19 0)
+			(at 213.36 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50051,7 +51552,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 128.27 0)
+			(at 213.36 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50067,7 +51568,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -50084,7 +51585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ca52fe-3a1e-4e58-92f2-3fe513462951")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 149.352 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50146,7 +51647,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -50163,7 +51664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29578b34-a96c-4280-aba7-d5fcd87127cf")
-		(property "Reference" "C45"
+		(property "Reference" "C43"
 			(at 150.622 30.734 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50225,7 +51726,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C45")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -50233,7 +51734,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 123.19 90)
+		(at 213.36 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50242,8 +51743,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c4b6459-2dde-44d3-a3c0-18b936294654")
-		(property "Reference" "TP?"
-			(at 208.28 123.19 90)
+		(property "Reference" "TP33"
+			(at 207.01 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50253,7 +51754,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 120.65 90)
+			(at 210.058 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50264,7 +51765,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 118.11 0)
+			(at 213.36 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50275,7 +51776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 118.11 0)
+			(at 213.36 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50286,7 +51787,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 123.19 0)
+			(at 213.36 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50302,7 +51803,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -50310,7 +51811,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 115.57 90)
+		(at 213.36 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50319,8 +51820,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31d12c77-e3dc-4aff-a3d3-3ecc4d7f0efa")
-		(property "Reference" "TP?"
-			(at 208.28 115.57 90)
+		(property "Reference" "TP30"
+			(at 207.01 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50330,7 +51831,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 113.03 90)
+			(at 210.058 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50341,7 +51842,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 110.49 0)
+			(at 213.36 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50352,7 +51853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 110.49 0)
+			(at 213.36 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50363,7 +51864,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 115.57 0)
+			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50379,7 +51880,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -50397,7 +51898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39b78fee-e656-426d-adc3-347dae315f3b")
-		(property "Reference" "R?"
+		(property "Reference" "R58"
 			(at 156.21 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50459,7 +51960,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -50467,7 +51968,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 130.81 90)
+		(at 213.36 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50476,8 +51977,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a7c646f-1827-4b0b-a81b-75d1b917f2f9")
-		(property "Reference" "TP?"
-			(at 208.28 130.81 90)
+		(property "Reference" "TP36"
+			(at 207.01 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50487,7 +51988,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 128.27 90)
+			(at 210.058 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50498,7 +51999,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 125.73 0)
+			(at 213.36 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50509,7 +52010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 125.73 0)
+			(at 213.36 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50520,7 +52021,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 130.81 0)
+			(at 213.36 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50536,7 +52037,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -50553,7 +52054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3aa02d6c-ea85-4a09-b7c5-2d26120e599d")
-		(property "Reference" "D?"
+		(property "Reference" "D23"
 			(at 120.65 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50626,7 +52127,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "D?")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -50634,7 +52135,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 118.11 90)
+		(at 189.23 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50643,8 +52144,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bd95d99-cdd0-4610-ba80-d8e75a90513a")
-		(property "Reference" "TP?"
-			(at 184.15 118.11 90)
+		(property "Reference" "TP15"
+			(at 182.88 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50654,7 +52155,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 115.57 90)
+			(at 185.928 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50665,7 +52166,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 113.03 0)
+			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50676,7 +52177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 113.03 0)
+			(at 189.23 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50687,7 +52188,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 118.11 0)
+			(at 189.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50703,7 +52204,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -50711,7 +52212,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 107.95 90)
+		(at 213.36 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50720,8 +52221,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f4d403f-0484-475c-8fe5-1dc1907e57fe")
-		(property "Reference" "TP?"
-			(at 208.28 107.95 90)
+		(property "Reference" "TP27"
+			(at 207.01 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50731,7 +52232,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 105.41 90)
+			(at 210.058 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50742,7 +52243,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 102.87 0)
+			(at 213.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50753,7 +52254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 102.87 0)
+			(at 213.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50764,7 +52265,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 107.95 0)
+			(at 213.36 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50780,7 +52281,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -50798,7 +52299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41828390-9eb4-4e81-b64d-fe31beafd84e")
-		(property "Reference" "R46"
+		(property "Reference" "R49"
 			(at 85.09 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50860,15 +52361,16 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R46")
+					(reference "R49")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 214.63 133.35 90)
+		(lib_id "Device:R")
+		(at 245.11 149.86 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50876,9 +52378,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4564f1db-84e4-45f3-8227-bb2c25910cb0")
-		(property "Reference" "TP?"
-			(at 208.28 133.35 90)
+		(uuid "42d84647-92de-4a48-abdc-5c511d7914cd")
+		(property "Reference" "R60"
+			(at 245.364 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50887,9 +52389,8 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 211.328 130.81 90)
-			(hide yes)
+		(property "Value" "5k"
+			(at 245.11 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50898,8 +52399,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 128.27 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 245.11 148.082 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50910,7 +52411,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 128.27 0)
+			(at 245.11 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7718f96b-78c0-4993-a086-862fe2dc4b57")
+		)
+		(pin "2"
+			(uuid "90c2b13a-32ed-43fd-ba22-2026613e0b1a")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4564f1db-84e4-45f3-8227-bb2c25910cb0")
+		(property "Reference" "TP37"
+			(at 207.01 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.058 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 213.36 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50921,7 +52502,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 133.35 0)
+			(at 213.36 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50937,7 +52518,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP37")
 					(unit 1)
 				)
 			)
@@ -50945,7 +52526,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 128.27 90)
+		(at 189.23 128.27 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50954,8 +52535,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48f6d2ae-4341-4287-b017-4a260d668f79")
-		(property "Reference" "TP?"
-			(at 184.15 128.27 90)
+		(property "Reference" "TP19"
+			(at 182.88 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50965,7 +52546,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 125.73 90)
+			(at 185.928 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50976,7 +52557,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 123.19 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50987,7 +52568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 123.19 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50998,7 +52579,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 128.27 0)
+			(at 189.23 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51014,7 +52595,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -51022,7 +52603,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 120.65 90)
+		(at 213.36 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51031,8 +52612,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51976985-afa8-4cf0-8210-1f8f74bad8cf")
-		(property "Reference" "TP?"
-			(at 208.28 120.65 90)
+		(property "Reference" "TP32"
+			(at 207.01 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51042,7 +52623,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 118.11 90)
+			(at 210.058 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51053,7 +52634,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 115.57 0)
+			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51064,7 +52645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 115.57 0)
+			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51075,7 +52656,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 120.65 0)
+			(at 213.36 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51091,7 +52672,101 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 254 153.67 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "51a068ae-0feb-4f2c-96c8-b4177a066550")
+		(property "Reference" "D25"
+			(at 254.3174 156.845 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 256.8574 156.845 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 254 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 254 153.67 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb954431-be36-4a5f-a852-5549e004de7f")
+		)
+		(pin "2"
+			(uuid "60165743-4bed-44c5-9b6a-ea09c0a9e7d3")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -51108,7 +52783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59f1a92e-fcd2-4896-8562-d88a9086017b")
-		(property "Reference" "R48"
+		(property "Reference" "R46"
 			(at 44.704 181.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51170,7 +52845,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R48")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -51178,7 +52853,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 133.35 90)
+		(at 213.36 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51187,8 +52862,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6036949f-0f36-4d61-8a99-82ff8680eb76")
-		(property "Reference" "TP?"
-			(at 184.15 133.35 90)
+		(property "Reference" "TP38"
+			(at 207.01 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51198,7 +52873,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 130.81 90)
+			(at 210.058 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51209,7 +52884,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 128.27 0)
+			(at 213.36 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51220,7 +52895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 128.27 0)
+			(at 213.36 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51231,7 +52906,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 133.35 0)
+			(at 213.36 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51247,7 +52922,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -51255,7 +52930,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 107.95 90)
+		(at 189.23 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51264,8 +52939,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "629e4304-d01c-4580-82af-3b2aa2fc976f")
-		(property "Reference" "TP?"
-			(at 184.15 107.95 90)
+		(property "Reference" "TP11"
+			(at 182.88 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51275,7 +52950,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 105.41 90)
+			(at 185.928 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51286,7 +52961,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 102.87 0)
+			(at 189.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51297,7 +52972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 102.87 0)
+			(at 189.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51308,7 +52983,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 107.95 0)
+			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51324,7 +52999,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -51341,7 +53016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6648d92c-8667-464d-8904-1c2c5660cdb0")
-		(property "Reference" "IC?"
+		(property "Reference" "IC4"
 			(at 58.42 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51507,7 +53182,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "IC?")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -51524,7 +53199,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c4caea9-ad8a-4fea-9409-1ddaffd8c150")
-		(property "Reference" "D17"
+		(property "Reference" "D19"
 			(at 36.322 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51597,7 +53272,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "D17")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -51615,8 +53290,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc0915f-e91a-41e9-97be-5cdb8ba09946")
-		(property "Reference" "Q?"
-			(at 141.478 130.8099 0)
+		(property "Reference" "Q5"
+			(at 142.24 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51627,7 +53302,7 @@
 			)
 		)
 		(property "Value" "IRLML2030TRPBF"
-			(at 141.478 133.3499 0)
+			(at 142.24 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51726,7 +53401,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "Q?")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -51734,7 +53409,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 140.97 90)
+		(at 189.23 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51743,8 +53418,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fe429ff-afc1-4938-92b9-e4b0ead49c6b")
-		(property "Reference" "TP?"
-			(at 184.15 140.97 90)
+		(property "Reference" "TP23"
+			(at 182.88 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51754,7 +53429,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 138.43 90)
+			(at 185.928 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51765,7 +53440,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 135.89 0)
+			(at 189.23 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51776,7 +53451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 135.89 0)
+			(at 189.23 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51787,7 +53462,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 140.97 0)
+			(at 189.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51803,7 +53478,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -51821,7 +53496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "753621c9-9c89-413a-b2d1-31685e4e12be")
-		(property "Reference" "R?"
+		(property "Reference" "R47"
 			(at 82.55 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51883,7 +53558,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -51891,7 +53566,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 105.41 90)
+		(at 189.23 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -51900,8 +53575,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "754569da-5c3d-46c6-818b-95006da02aa2")
-		(property "Reference" "TP?"
-			(at 184.15 105.41 90)
+		(property "Reference" "TP10"
+			(at 182.88 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -51911,7 +53586,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 102.87 90)
+			(at 185.928 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51922,7 +53597,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 100.33 0)
+			(at 189.23 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51933,7 +53608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 100.33 0)
+			(at 189.23 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51944,7 +53619,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 105.41 0)
+			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51960,7 +53635,86 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "7914895f-4d52-4e29-8d6c-edaf8f43a1ef")
+		(property "Reference" "C46"
+			(at 242.57 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330pF"
+			(at 249.555 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 53.0352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63afa35c-d966-4e80-bca8-d68e9769674b")
+		)
+		(pin "2"
+			(uuid "5f0777c4-fb33-4d16-91a4-d258119b435a")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -51977,7 +53731,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cd4783a-8659-43bb-8474-ed358e34d9cf")
-		(property "Reference" "JP2"
+		(property "Reference" "JP4"
 			(at 137.922 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52040,7 +53794,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "JP2")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -52057,7 +53811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "838754c1-c1eb-4857-ad6b-7b894c0700a1")
-		(property "Reference" "R?"
+		(property "Reference" "R55"
 			(at 125.984 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52119,7 +53873,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -52136,7 +53890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84808cd0-7e23-4b94-92ee-66ec13e687ec")
-		(property "Reference" "R?"
+		(property "Reference" "R42"
 			(at 40.64 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52198,7 +53952,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -52206,7 +53960,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 214.63 110.49 90)
+		(at 213.36 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52215,8 +53969,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "867f5278-ea9e-41db-8fb7-93215569ea4f")
-		(property "Reference" "TP?"
-			(at 208.28 110.49 90)
+		(property "Reference" "TP28"
+			(at 207.01 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52226,7 +53980,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 211.328 107.95 90)
+			(at 210.058 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52237,7 +53991,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 105.41 0)
+			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52248,7 +54002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 105.41 0)
+			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52259,7 +54013,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 110.49 0)
+			(at 213.36 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52275,7 +54029,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -52283,7 +54037,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 143.51 90)
+		(at 189.23 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52292,8 +54046,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c9db1fa-9846-4a1b-8e24-0c588437c141")
-		(property "Reference" "TP?"
-			(at 184.15 143.51 90)
+		(property "Reference" "TP24"
+			(at 182.88 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52303,7 +54057,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 140.97 90)
+			(at 185.928 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52314,7 +54068,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 138.43 0)
+			(at 189.23 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52325,7 +54079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 138.43 0)
+			(at 189.23 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52336,7 +54090,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 143.51 0)
+			(at 189.23 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52352,7 +54106,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -52370,7 +54124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dd19d0b-3ecc-4825-aa2a-7aa5fd08c691")
-		(property "Reference" "R45"
+		(property "Reference" "R48"
 			(at 78.74 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52432,7 +54186,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R45")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -52449,7 +54203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f62da21-1ce8-491a-9604-71ddbae5c0a6")
-		(property "Reference" "R?"
+		(property "Reference" "R56"
 			(at 125.984 178.816 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52511,25 +54265,25 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R56")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 214.63 125.73 90)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 222.25 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9cbd591f-ecca-4bc1-ae76-e713d7ee150b")
-		(property "Reference" "TP?"
-			(at 208.28 125.73 90)
+		(uuid "9316b04c-9800-470b-97cd-cd667e0b913a")
+		(property "Reference" "JP5"
+			(at 219.202 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52538,8 +54292,8 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 211.328 123.19 90)
+		(property "Value" "SolderJumper_2_Open"
+			(at 222.25 25.654 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52549,8 +54303,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 214.63 120.65 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 222.25 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52561,7 +54315,217 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 120.65 0)
+			(at 222.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 222.25 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "178a3d31-f3af-4c6c-95e4-f388f6669b42")
+		)
+		(pin "2"
+			(uuid "1bc3b6d4-6bb3-44c2-9ee9-bd9bcaf21ae4")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 54.61 148.59 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9540a148-1276-4e29-8eba-de9e06d71dad")
+		(property "Reference" "Q3"
+			(at 60.96 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3099L-7"
+			(at 60.96 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DMP3099L-7:DMP3099L-7"
+			(at 59.69 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/DMP3099L-7?qs=L1DZKBg7t5HhdiZT7qYxFw%3D%3D"
+			(at 54.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 54.61 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 54.61 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 54.61 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 54.61 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "DMP3099L-7"
+			(at 54.61 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6705fc68-ab64-419e-a295-7f56f7837107")
+		)
+		(pin "3"
+			(uuid "f5b0ed94-7d90-4bfb-8b8c-95fdf246d679")
+		)
+		(pin "1"
+			(uuid "2b116265-5fee-43fe-abd2-4d1277d8d7ac")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9cbd591f-ecca-4bc1-ae76-e713d7ee150b")
+		(property "Reference" "TP34"
+			(at 207.01 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 210.058 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 213.36 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52572,7 +54536,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 214.63 125.73 0)
+			(at 213.36 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52588,136 +54552,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 54.61 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ffb2d7c-96fd-49d7-993c-5e6c44a30511")
-		(property "Reference" "Q3"
-			(at 60.198 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML2030TRPBF"
-			(at 60.198 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "IRLML2030TRPBF:IRLML2030TRPBF"
-			(at 59.69 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/70/1/infineon_irlml2030_datasheet_en.pdf"
-			(at 54.61 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 54.61 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 54.61 165.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 54.61 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 54.61 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "IRLML2030TRPBF"
-			(at 54.61 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdc2ecab-5cec-4dbb-84f0-f4101deebb48")
-		)
-		(pin "3"
-			(uuid "18ebb983-d216-42e1-ba71-c5f48f26ec3b")
-		)
-		(pin "2"
-			(uuid "0716f792-603d-4e62-b1bd-2b45b3076719")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "Q3")
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -52734,7 +54569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1045176-da77-4894-87cc-c8af763b2401")
-		(property "Reference" "R42"
+		(property "Reference" "R44"
 			(at 43.18 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52796,7 +54631,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R42")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -52813,7 +54648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3df68ec-a3a8-44f4-899a-fb632054e637")
-		(property "Reference" "D18"
+		(property "Reference" "D20"
 			(at 36.576 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52897,7 +54732,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "D18")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -52905,7 +54740,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 130.81 90)
+		(at 189.23 130.81 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52914,8 +54749,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a61f1bc7-4e2e-46ad-b45b-13911861e2f9")
-		(property "Reference" "TP?"
-			(at 184.15 130.81 90)
+		(property "Reference" "TP20"
+			(at 182.88 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52925,7 +54760,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 128.27 90)
+			(at 185.928 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52936,7 +54771,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 125.73 0)
+			(at 189.23 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52947,7 +54782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 125.73 0)
+			(at 189.23 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52958,7 +54793,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 130.81 0)
+			(at 189.23 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52974,7 +54809,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -52991,7 +54826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa1caeda-52c0-478a-875d-91136689fb01")
-		(property "Reference" "R47"
+		(property "Reference" "R45"
 			(at 44.704 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53053,7 +54888,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R47")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -53070,7 +54905,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abc18006-f8e1-40cb-9d1f-4e81fa48d564")
-		(property "Reference" "C44"
+		(property "Reference" "C42"
 			(at 144.018 22.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53132,7 +54967,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "C44")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -53462,7 +55297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb22863e-c6be-44c3-b663-5af0549acbe6")
-		(property "Reference" "R50"
+		(property "Reference" "R62"
 			(at 249.936 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53524,7 +55359,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R50")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -53542,7 +55377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be101e8b-dd32-4f26-9a8d-b0b43d004f9f")
-		(property "Reference" "Q?"
+		(property "Reference" "Q7"
 			(at 141.478 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53653,7 +55488,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "Q?")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -53671,7 +55506,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c0b6568a-1610-449f-bee9-3187e9f67d00")
-		(property "Reference" "R?"
+		(property "Reference" "R51"
 			(at 123.19 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53733,7 +55568,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -53750,7 +55585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1ac1e95-227c-456f-a677-b7a7cb9d747f")
-		(property "Reference" "R41"
+		(property "Reference" "R43"
 			(at 36.83 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53812,7 +55647,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R41")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -53829,7 +55664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1dee7d6-4b07-47e7-b395-464af43ce1a4")
-		(property "Reference" "R?"
+		(property "Reference" "R53"
 			(at 125.984 135.636 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53891,7 +55726,97 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 223.52 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4bee13f-a537-4ec6-bbd2-92e8126f6cd5")
+		(property "Reference" "L2"
+			(at 223.52 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 223.52 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "10uH_inducto:WE-MAIA_2512"
+			(at 223.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/en/ProductDetail/Wurth-Elektronik/78438324100?qs=r5DSvlrkXmJRAeQmSiRG9g%3D%3D"
+			(at 223.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 223.52 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "p/n" "78438324100"
+			(at 223.52 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a3d5fa4-7acf-456c-b84a-993bf18173a0")
+		)
+		(pin "2"
+			(uuid "df78279d-6e7e-4e46-9d0f-64d257671d7e")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -53908,7 +55833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c67ce4fd-3946-4cf4-ad1e-710c19c89fb2")
-		(property "Reference" "JP4"
+		(property "Reference" "JP3"
 			(at 107.442 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53971,7 +55896,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "JP4")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -53979,7 +55904,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 125.73 90)
+		(at 189.23 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53988,8 +55913,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb281966-a02a-46e9-9c29-941770cb08e5")
-		(property "Reference" "TP?"
-			(at 184.15 125.73 90)
+		(property "Reference" "TP18"
+			(at 182.88 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53999,7 +55924,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 123.19 90)
+			(at 185.928 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54010,7 +55935,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 120.65 0)
+			(at 189.23 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54021,7 +55946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 120.65 0)
+			(at 189.23 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54032,7 +55957,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 125.73 0)
+			(at 189.23 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54048,7 +55973,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -54065,7 +55990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3ba144-e6b2-4e78-bafd-334588c426e7")
-		(property "Reference" "R43"
+		(property "Reference" "R52"
 			(at 125.984 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54127,7 +56052,86 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R43")
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 26.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "d06103e6-d30a-47e4-8829-1521503f1709")
+		(property "Reference" "C45"
+			(at 241.3 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330pF"
+			(at 248.285 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 27.6352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c8a565b-68f0-4a13-9029-2aad60d44021")
+		)
+		(pin "2"
+			(uuid "1d971820-cb05-4eb4-8412-7c140b4a953b")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -54145,7 +56149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2a20e1-11f3-4443-a85a-619bde2eda0a")
-		(property "Reference" "IC4"
+		(property "Reference" "IC7"
 			(at 134.62 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54311,7 +56315,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "IC4")
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -54328,7 +56332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcf63e22-f1a6-454c-92fd-71c76be6fe50")
-		(property "Reference" "R?"
+		(property "Reference" "R54"
 			(at 125.984 149.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54390,7 +56394,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -54398,7 +56402,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 110.49 90)
+		(at 189.23 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54407,8 +56411,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1a9a61b-a641-4eba-bc29-2684ab601af2")
-		(property "Reference" "TP?"
-			(at 184.15 110.49 90)
+		(property "Reference" "TP12"
+			(at 182.88 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54418,7 +56422,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 107.95 90)
+			(at 185.928 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54429,7 +56433,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 105.41 0)
+			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54440,7 +56444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 105.41 0)
+			(at 189.23 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54451,7 +56455,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 110.49 0)
+			(at 189.23 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54467,7 +56471,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -54484,7 +56488,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e67a0097-56c8-43a2-b0f9-e8619ebb7094")
-		(property "Reference" "D?"
+		(property "Reference" "D21"
 			(at 120.65 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54557,7 +56561,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "D?")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -54565,7 +56569,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 135.89 90)
+		(at 189.23 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54574,8 +56578,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e716cb3e-6f28-4a34-8dd4-501b7b0dfbe3")
-		(property "Reference" "TP?"
-			(at 184.15 135.89 90)
+		(property "Reference" "TP21"
+			(at 182.88 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54585,7 +56589,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 133.35 90)
+			(at 185.928 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54596,7 +56600,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 130.81 0)
+			(at 189.23 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54607,7 +56611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 130.81 0)
+			(at 189.23 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54618,7 +56622,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 135.89 0)
+			(at 189.23 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54634,7 +56638,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -54834,7 +56838,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec1c65a1-313b-4092-8caf-c73539a2823c")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 133.35 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54934,7 +56938,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -54952,7 +56956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee739f67-9bf5-4866-a8bb-4476b18a73f9")
-		(property "Reference" "Q?"
+		(property "Reference" "Q6"
 			(at 141.478 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55063,7 +57067,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "Q?")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -55081,7 +57085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee85ca38-8ff6-4fe6-bac5-82756581e016")
-		(property "Reference" "Q?"
+		(property "Reference" "Q8"
 			(at 141.478 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55192,7 +57196,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "Q?")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -55209,7 +57213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef33996e-5eb0-4204-8fc4-4dcae938375f")
-		(property "Reference" "R?"
+		(property "Reference" "R59"
 			(at 156.21 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55271,7 +57275,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -55288,7 +57292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f059a27b-cff2-4e3e-b3ca-5f935c48d698")
-		(property "Reference" "R44"
+		(property "Reference" "R57"
 			(at 148.844 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55350,7 +57354,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R44")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -55367,7 +57371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f364ad19-7571-4777-98ad-169687d87b72")
-		(property "Reference" "D?"
+		(property "Reference" "D22"
 			(at 120.65 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55440,7 +57444,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "D?")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -55457,7 +57461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3f83661-e6b9-439d-bb7f-1c936a695e10")
-		(property "Reference" "R49"
+		(property "Reference" "R61"
 			(at 249.936 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55519,7 +57523,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R49")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -55536,7 +57540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f55395f0-41e3-4740-a488-a98652c4d04f")
-		(property "Reference" "JP3"
+		(property "Reference" "JP2"
 			(at 107.442 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55599,7 +57603,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "JP3")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -55607,7 +57611,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 190.5 123.19 90)
+		(at 189.23 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -55616,8 +57620,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7e4abab-7f64-475c-8cf4-abb091aae69c")
-		(property "Reference" "TP?"
-			(at 184.15 123.19 90)
+		(property "Reference" "TP17"
+			(at 182.88 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55627,7 +57631,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 187.198 120.65 90)
+			(at 185.928 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55638,7 +57642,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
-			(at 190.5 118.11 0)
+			(at 189.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55649,7 +57653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 118.11 0)
+			(at 189.23 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55660,7 +57664,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 190.5 123.19 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55676,7 +57680,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "TP?")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -55693,7 +57697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f825fbce-96dc-4e79-af37-d6d1471079a9")
-		(property "Reference" "D?"
+		(property "Reference" "D24"
 			(at 120.65 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55766,7 +57770,165 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "D?")
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd0b4b3b-9ac0-4897-9b15-b889f40f03aa")
+		(property "Reference" "C44"
+			(at 229.235 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 224.155 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.2952 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e55f1112-f865-4056-bc75-06f55ef1290c")
+		)
+		(pin "2"
+			(uuid "7260ac78-4fe5-4c3a-8e4a-a2d1988a44b6")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd610cfd-54bb-4792-8246-ee9145224ea5")
+		(property "Reference" "#FLG010"
+			(at 81.28 29.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 81.28 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 81.28 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e24c419c-0c2c-4c0a-890f-e923685684e2")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -55784,7 +57946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe9bc249-e534-4ae9-882f-f24c801d50b3")
-		(property "Reference" "R?"
+		(property "Reference" "R50"
 			(at 121.92 32.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55846,7 +58008,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "R?")
+					(reference "R50")
 					(unit 1)
 				)
 			)

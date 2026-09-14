@@ -18,4 +18,5 @@
 	(lib (name "ROE-3.305S") (type "KiCad") (uri "${KIPRJMOD}/Footprints/ROE-3.305S.pretty") (options "") (descr ""))
 	(lib (name "FuseHolder") (type "KiCad") (uri "${KIPRJMOD}/Footprints/FuseHolder.pretty") (options "") (descr ""))
 	(lib (name "diddle_shah") (type "KiCad") (uri "${KIPRJMOD}/Footprints/diddle_shah.pretty") (options "") (descr ""))
+	(lib (name "DMP3099L-7") (type "KiCad") (uri "${KIPRJMOD}/Footprints/DMP3099L-7.pretty") (options "") (descr ""))
 )
