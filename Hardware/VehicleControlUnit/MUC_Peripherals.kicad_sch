@@ -852,16 +852,16 @@
 		(uuid "598074fc-7e6a-4da5-8552-f0c530db482f")
 	)
 	(junction
-		(at 114.935 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "732f339c-d59c-4178-9908-03860e504e1d")
-	)
-	(junction
 		(at 100.33 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c71e659-bdc3-4749-a01d-39fd7c0346bf")
+	)
+	(junction
+		(at 114.935 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc5da06-2cb8-479b-ba7e-c979d88ca5d4")
 	)
 	(no_connect
 		(at 78.74 118.11)
@@ -1816,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.935 38.1) (xy 116.84 38.1)
+			(xy 114.935 38.1) (xy 123.19 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5433,6 +5433,17 @@
 		)
 		(uuid "3ab307f0-6a6e-4452-bb8d-38f2f03fd178")
 	)
+	(hierarchical_label "-TH"
+		(shape input)
+		(at 100.33 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dfb4217-19f2-4738-a2ad-fa7ac6c120e2")
+	)
 	(hierarchical_label "{DAC_SPI}"
 		(shape bidirectional)
 		(at 24.13 90.17 180)
@@ -5567,7 +5578,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 116.84 38.1 0)
+		(at 123.19 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5576,7 +5587,7 @@
 		)
 		(uuid "7885770c-7cfa-4e04-b918-0fb49c731ea9")
 	)
-	(hierarchical_label "ADC2_IN6+"
+	(hierarchical_label "+TH"
 		(shape input)
 		(at 116.84 27.94 0)
 		(effects
@@ -5696,17 +5707,6 @@
 			(justify left)
 		)
 		(uuid "d280b872-695a-4350-8835-b22eb4d5fba0")
-	)
-	(hierarchical_label "ADC2_IN6-"
-		(shape input)
-		(at 100.33 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e04e0104-5ab1-457a-a42d-03c5e420f2fb")
 	)
 	(hierarchical_label "PWR_EN"
 		(shape output)
@@ -7114,7 +7114,7 @@
 		(dnp no)
 		(uuid "ccb8e356-a33c-435f-9aff-b9c02a979e9a")
 		(property "Reference" "C38"
-			(at 113.665 30.48 0)
+			(at 111.76 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

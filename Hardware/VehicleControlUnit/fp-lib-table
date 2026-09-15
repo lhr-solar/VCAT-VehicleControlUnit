@@ -19,4 +19,5 @@
 	(lib (name "FuseHolder") (type "KiCad") (uri "${KIPRJMOD}/Footprints/FuseHolder.pretty") (options "") (descr ""))
 	(lib (name "diddle_shah") (type "KiCad") (uri "${KIPRJMOD}/Footprints/diddle_shah.pretty") (options "") (descr ""))
 	(lib (name "DMP3099L-7") (type "KiCad") (uri "${KIPRJMOD}/Footprints/DMP3099L-7.pretty") (options "") (descr ""))
+	(lib (name "MCP4922T-EST") (type "KiCad") (uri "${KIPRJMOD}/Footprints/MCP4922T-EST.pretty") (options "") (descr ""))
 )

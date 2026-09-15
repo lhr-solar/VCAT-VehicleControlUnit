@@ -943,7 +943,7 @@
 		(uuid "c11f56a2-22f2-4275-af02-19fb4ea1b0d2")
 	)
 	(hierarchical_label "+12V"
-		(shape input)
+		(shape output)
 		(at 54.61 46.99 180)
 		(effects
 			(font
