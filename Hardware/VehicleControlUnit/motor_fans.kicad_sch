@@ -1070,6 +1070,16 @@
 		)
 		(uuid "093cdfe8-e8d2-4b0d-9bcc-d99e769d3969")
 	)
+	(text "Fan 1 Flyback"
+		(exclude_from_sim no)
+		(at 53.34 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22fd630b-accd-46a8-8aba-80d124c9b4f0")
+	)
 	(text "Fan PWM pins configed\nas open drain"
 		(exclude_from_sim no)
 		(at 120.65 64.77 0)
@@ -1079,6 +1089,16 @@
 			)
 		)
 		(uuid "8e705e17-8f02-437f-b6e2-d62446ff7130")
+	)
+	(text "Fan 2 Flyback"
+		(exclude_from_sim no)
+		(at 53.34 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d193c8e8-0a1b-4b13-b0c0-27e9a3061a2a")
 	)
 	(text "Flyback Diodes"
 		(exclude_from_sim no)
@@ -9185,7 +9205,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0279b168-96ad-4587-a02e-9070e68f866c")
-		(property "Reference" "R35"
+		(property "Reference" "R40"
 			(at 62.992 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9247,7 +9267,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R35")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -9501,7 +9521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f8e4d6e-3c8b-4da8-8fa4-4c738ebb7285")
-		(property "Reference" "R40"
+		(property "Reference" "R45"
 			(at 110.49 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9563,7 +9583,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R40")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -9581,7 +9601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "274612e0-3eb4-4fe0-85a9-068462407217")
-		(property "Reference" "D18"
+		(property "Reference" "D23"
 			(at 62.484 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9593,7 +9613,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 58.42 89.408 0)
+			(at 63.5 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9645,7 +9665,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "D18")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -9743,7 +9763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5eebc023-7248-4e54-b4e9-3695d3ffba45")
-		(property "Reference" "R39"
+		(property "Reference" "R44"
 			(at 104.648 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9805,7 +9825,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R39")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -10008,7 +10028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7573c283-b5fa-4538-ae27-33ad00549053")
-		(property "Reference" "R41"
+		(property "Reference" "R46"
 			(at 119.888 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10070,7 +10090,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R41")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -10166,7 +10186,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97570b1f-21fa-4533-ae35-6a13f51e3448")
-		(property "Reference" "R36"
+		(property "Reference" "R41"
 			(at 68.58 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10228,7 +10248,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R36")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -10326,7 +10346,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b028c974-5b46-42df-935d-92e434d71c63")
-		(property "Reference" "R38"
+		(property "Reference" "R43"
 			(at 104.14 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10388,7 +10408,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R38")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -10405,7 +10425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf1e6e2f-b734-4587-b76b-4eccfdfc54bb")
-		(property "Reference" "R37"
+		(property "Reference" "R42"
 			(at 77.724 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10467,7 +10487,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R37")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -10485,7 +10505,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc31a2f8-3160-4548-8039-259a69916061")
-		(property "Reference" "D17"
+		(property "Reference" "D22"
 			(at 62.484 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10549,7 +10569,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "D17")
+					(reference "D22")
 					(unit 1)
 				)
 			)

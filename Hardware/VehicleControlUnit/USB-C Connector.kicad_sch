@@ -1619,6 +1619,18 @@
 		(uuid "1be4ba29-309d-4466-aa64-bd1c3c9fb213")
 	)
 	(junction
+		(at 27.94 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fc0caa2-6a29-41e2-bc2e-0ddd44cd4b67")
+	)
+	(junction
+		(at 30.48 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40de44d8-2e23-4a1e-9b18-a0226eeea27e")
+	)
+	(junction
 		(at 50.8 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1629,12 +1641,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87665ee5-842f-4ab8-b4ef-f09e77cb2a70")
-	)
-	(junction
-		(at 31.75 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90e8ec2f-5095-48d1-819b-b485cf0227c1")
 	)
 	(no_connect
 		(at 50.8 60.96)
@@ -1663,6 +1669,16 @@
 			(type default)
 		)
 		(uuid "0c6766ab-f5e4-4ea1-aa18-b77d4fb016d9")
+	)
+	(wire
+		(pts
+			(xy 24.13 71.12) (xy 25.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cff76d3-0e48-4588-bfa0-1162ab023b5e")
 	)
 	(wire
 		(pts
@@ -1696,13 +1712,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 68.58) (xy 35.56 68.58)
+			(xy 30.48 81.28) (xy 30.48 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c6676d9-655e-47b0-993b-851f93b29be0")
+		(uuid "170087ca-c356-4982-a9d7-a8d2ab4f423b")
 	)
 	(wire
 		(pts
@@ -1723,6 +1739,16 @@
 			(type default)
 		)
 		(uuid "1f25a7a1-3996-4447-8050-4b3ac7a95bf9")
+	)
+	(wire
+		(pts
+			(xy 31.75 71.12) (xy 30.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281c49f2-d6e5-4af2-84d3-ebb807376b68")
 	)
 	(wire
 		(pts
@@ -1766,6 +1792,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 69.85) (xy 25.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543c299c-6d57-4539-9ee6-46038863c913")
+	)
+	(wire
+		(pts
 			(xy 67.31 30.48) (xy 69.85 30.48)
 		)
 		(stroke
@@ -1773,6 +1809,16 @@
 			(type default)
 		)
 		(uuid "55ebce0d-f91e-4ae9-a250-6b724ee2f0e7")
+	)
+	(wire
+		(pts
+			(xy 25.4 80.01) (xy 30.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569d0fec-723a-4009-b538-258536a0141f")
 	)
 	(wire
 		(pts
@@ -1786,6 +1832,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 78.74) (xy 34.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ee38ea-da60-4d83-8148-3dd544066162")
+	)
+	(wire
+		(pts
 			(xy 50.8 49.53) (xy 50.8 50.8)
 		)
 		(stroke
@@ -1796,13 +1852,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 68.58) (xy 31.75 69.85)
+			(xy 27.94 68.58) (xy 27.94 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "728034de-1f4f-43c4-b764-799f66fbad77")
+		(uuid "83625486-f5e4-4c39-be67-2b73c609e089")
+	)
+	(wire
+		(pts
+			(xy 35.56 68.58) (xy 35.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d917c7-7f4b-4743-9b3b-71f65277573b")
 	)
 	(wire
 		(pts
@@ -1826,6 +1892,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 78.74) (xy 25.4 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdb7b19-a641-4ce5-a1f0-134693f00c18")
+	)
+	(wire
+		(pts
 			(xy 50.8 35.56) (xy 52.07 35.56)
 		)
 		(stroke
@@ -1833,6 +1909,16 @@
 			(type default)
 		)
 		(uuid "9075ed5e-cbfb-486f-b1fc-3da50c5cd78a")
+	)
+	(wire
+		(pts
+			(xy 27.94 69.85) (xy 30.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d50156-3727-40fb-bd39-ffeebd8d7350")
 	)
 	(wire
 		(pts
@@ -1846,6 +1932,26 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 80.01) (xy 34.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a3edd9-7b56-4804-b0f9-b502b07198cd")
+	)
+	(wire
+		(pts
+			(xy 31.75 78.74) (xy 30.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5b3bda-0b61-4e73-8e01-f093cfd7cc64")
+	)
+	(wire
+		(pts
 			(xy 50.8 44.45) (xy 55.88 44.45)
 		)
 		(stroke
@@ -1853,16 +1959,6 @@
 			(type default)
 		)
 		(uuid "c072b2d4-24ef-4397-8af9-5c401c4916c0")
-	)
-	(wire
-		(pts
-			(xy 27.94 68.58) (xy 31.75 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ea544c-0d4a-4c83-a51a-44bd5212c87e")
 	)
 	(wire
 		(pts
@@ -1937,7 +2033,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 31.75 69.85 270)
+		(at 30.48 81.28 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2079,6 +2175,85 @@
 		(uuid "f9f29e46-bcf2-4cdd-8cbd-013cb79f55a6")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 31.75 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "169bce45-fee9-45bd-ba34-47523b03c6cf")
+		(property "Reference" "C49"
+			(at 30.48 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 29.21 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 30.7848 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9454e95a-0ad7-4744-8d12-58abc94add66")
+		)
+		(pin "2"
+			(uuid "44f91525-1095-47f0-9134-1f69da950feb")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 90.17 48.26 180)
 		(unit 1)
@@ -2089,7 +2264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e4802a2-1696-4f84-a997-10989ac104a8")
-		(property "Reference" "R66"
+		(property "Reference" "R72"
 			(at 86.106 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,7 +2343,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "R66")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -2185,7 +2360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
-		(property "Reference" "R67"
+		(property "Reference" "R73"
 			(at 93.726 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2264,7 +2439,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "R67")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -2282,7 +2457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1333329-f4e2-40f5-9812-35a41f66040e")
-		(property "Reference" "J13"
+		(property "Reference" "J14"
 			(at 35.56 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2404,7 +2579,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "J13")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2506,7 +2681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da76b70d-1d08-42fa-9779-e2d100318d24")
-		(property "Reference" "D27"
+		(property "Reference" "D32"
 			(at 59.69 24.765 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2596,7 +2771,86 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "D27")
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 24.13 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e23f3016-9cef-4086-b45b-d99873a493c8")
+		(property "Reference" "R71"
+			(at 22.098 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 24.13 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 25.908 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be578d7d-7584-4494-ba42-17a40fc45d2e")
+		)
+		(pin "2"
+			(uuid "d65b2688-cfcd-443f-8828-c192c95f98bf")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -2613,7 +2867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c3dd7f-84ec-4dcb-899f-0b4a41d3690f")
-		(property "Reference" "C49"
+		(property "Reference" "C50"
 			(at 64.3128 37.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2705,7 +2959,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -2722,7 +2976,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe3aff89-8d94-4559-bc65-3ae42b33c9c5")
-		(property "Reference" "D28"
+		(property "Reference" "D33"
 			(at 82.55 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2818,7 +3072,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "D28")
+					(reference "D33")
 					(unit 1)
 				)
 			)
