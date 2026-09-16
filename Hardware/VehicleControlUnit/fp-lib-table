@@ -20,4 +20,5 @@
 	(lib (name "diddle_shah") (type "KiCad") (uri "${KIPRJMOD}/Footprints/diddle_shah.pretty") (options "") (descr ""))
 	(lib (name "DMP3099L-7") (type "KiCad") (uri "${KIPRJMOD}/Footprints/DMP3099L-7.pretty") (options "") (descr ""))
 	(lib (name "MCP4922T-EST") (type "KiCad") (uri "${KIPRJMOD}/Footprints/MCP4922T-EST.pretty") (options "") (descr ""))
+	(lib (name "cutom_2x7_nanofit") (type "KiCad") (uri "${KIPRJMOD}/Footprints/cutom_2x7_nanofit.pretty") (options "") (descr ""))
 )
