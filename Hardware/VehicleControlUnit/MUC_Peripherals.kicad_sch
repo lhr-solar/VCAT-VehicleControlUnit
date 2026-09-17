@@ -932,20 +932,12 @@
 		(uuid "6b6bfbea-97fb-4542-bca8-44376f352632")
 	)
 	(no_connect
-		(at 82.55 99.06)
-		(uuid "76feed7c-df8d-4fb5-b1bc-4014126b3686")
-	)
-	(no_connect
 		(at 40.64 116.84)
 		(uuid "7a37ec44-2fa4-4187-a77d-98195204d1e1")
 	)
 	(no_connect
 		(at 104.14 134.62)
 		(uuid "814302fa-3e1d-4595-80ae-266d97af33c6")
-	)
-	(no_connect
-		(at 82.55 96.52)
-		(uuid "825682a4-66ff-4066-9bda-afda7c4208d3")
 	)
 	(no_connect
 		(at 40.64 88.9)
@@ -1024,10 +1016,6 @@
 		(uuid "dd35d738-5984-44b9-abb7-cc15dbb1af96")
 	)
 	(no_connect
-		(at 82.55 93.98)
-		(uuid "dd40de04-55e7-4418-8b18-9479b659b79b")
-	)
-	(no_connect
 		(at 82.55 133.35)
 		(uuid "e63b60bc-5337-476d-8c27-1f8ed36e2edf")
 	)
@@ -1050,10 +1038,6 @@
 	(no_connect
 		(at 40.64 55.88)
 		(uuid "f310d397-40a6-409d-a203-5378addf5302")
-	)
-	(no_connect
-		(at 82.55 91.44)
-		(uuid "f8833ce0-970a-4e45-8a28-45f630a45ba2")
 	)
 	(no_connect
 		(at 40.64 134.62)
@@ -1286,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 91.44) (xy 82.55 91.44)
+			(xy 81.28 91.44) (xy 85.09 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 82.55 93.98)
+			(xy 81.28 93.98) (xy 85.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2176,7 +2160,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 99.06) (xy 82.55 99.06)
+			(xy 81.28 99.06) (xy 85.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2360,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 82.55 96.52)
+			(xy 81.28 96.52) (xy 85.09 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5225,6 +5209,26 @@
 		)
 		(uuid "0039db5b-34e7-462d-aa1e-63c8c1869f92")
 	)
+	(label "SWOC"
+		(at 85.09 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ce57d00-0e79-4719-83e2-7779226ca74c")
+	)
+	(label "BPS_Fault"
+		(at 85.09 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14fad938-a284-4da0-a214-a2ac2c000976")
+	)
 	(label "SW_LED3"
 		(at 85.09 83.82 0)
 		(effects
@@ -5274,6 +5278,16 @@
 			(justify left bottom)
 		)
 		(uuid "427cb465-49dc-4881-a42f-46c79cbb9fce")
+	)
+	(label "Mtr_Fault"
+		(at 85.09 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56230ba0-6557-4b2d-b06b-2f6a092269e4")
 	)
 	(label "CLK"
 		(at 87.63 58.42 180)
@@ -5454,6 +5468,16 @@
 			(justify right bottom)
 		)
 		(uuid "c57aed16-65ab-4b65-a375-d2f52806e0f4")
+	)
+	(label "ESTOP_Fault"
+		(at 85.09 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cca033ef-bacc-4158-ade2-9288e37a8669")
 	)
 	(label "DAC_MOSI"
 		(at 31.75 99.06 0)

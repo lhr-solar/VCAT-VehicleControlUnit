@@ -5,12 +5,9 @@
 	(uuid "2b1a1d1e-9113-44e6-9b2e-2ec484edc1b9")
 	(paper "A5")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
-				(offset 0.762)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -18,8 +15,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
+			(property "Reference" "J"
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -28,8 +25,8 @@
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -39,7 +36,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -50,17 +47,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -71,7 +57,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -82,7 +68,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -93,24 +79,88 @@
 					)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -118,6 +168,78 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8998,7 +9120,7 @@
 	)
 	(hierarchical_label "FAN_SDA"
 		(shape input)
-		(at 146.05 83.82 180)
+		(at 151.13 83.185 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9075,7 +9197,7 @@
 	)
 	(hierarchical_label "FAN_SCL"
 		(shape input)
-		(at 146.05 88.9 180)
+		(at 151.13 85.725 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9097,7 +9219,7 @@
 	)
 	(hierarchical_label "ALERT"
 		(shape input)
-		(at 146.05 68.58 180)
+		(at 151.13 75.565 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9141,7 +9263,7 @@
 	)
 	(hierarchical_label "FAN1_PWM"
 		(shape output)
-		(at 146.05 73.66 180)
+		(at 151.13 78.105 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9174,7 +9296,7 @@
 	)
 	(hierarchical_label "FAN1_TACH"
 		(shape input)
-		(at 146.05 78.74 180)
+		(at 151.13 80.645 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9268,243 +9390,6 @@
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 73.66 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "107f7f26-d6ce-4fae-979b-f029895fdb44")
-		(property "Reference" "TP6"
-			(at 151.13 72.3899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 151.13 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
-			(at 146.05 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7ef5bb3-1fac-44d5-98ff-4677c3410575")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 68.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "166e1524-de18-4043-b7e6-944e524c90da")
-		(property "Reference" "TP5"
-			(at 151.13 67.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 151.13 69.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
-			(at 146.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ba87b34-951f-4756-8134-b49df3e73761")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 88.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ade2648-7f5b-4751-a1b3-f339d6a1c531")
-		(property "Reference" "TP9"
-			(at 151.13 87.6299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 151.13 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
-			(at 146.05 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33d59f36-d693-4b87-b5ee-8a2fc8cbc15b")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10097,85 +9982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 78.74 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "855ef1a5-fc5b-4fe4-8986-c817946f9b68")
-		(property "Reference" "TP7"
-			(at 151.13 77.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 151.13 80.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
-			(at 146.05 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa6d4a76-7fd3-4040-bfc8-e4a291ef44cc")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 71.12 43.18 0)
 		(unit 1)
@@ -10494,6 +10300,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 156.21 80.645 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d09c0d89-1865-4149-b713-37be92589f89")
+		(property "Reference" "J13"
+			(at 155.575 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan_Debug_Conn"
+			(at 159.385 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(at 156.21 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.21 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "b89c865b-d7b3-40d0-b0e5-15aec952c811")
+		)
+		(pin "1"
+			(uuid "cdfd5ed4-0e90-4719-93f4-fc48acf3e30d")
+		)
+		(pin "5"
+			(uuid "00390ba7-ac23-4bf1-bee0-1836c0f23593")
+		)
+		(pin "2"
+			(uuid "164a1a75-7125-4f02-956c-0f9942922951")
+		)
+		(pin "3"
+			(uuid "f06f2df4-e54a-4177-8eaa-e5861e735dbd")
+		)
+		(instances
+			(project "VehicleControlUnit"
+				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 63.5 76.2 0)
 		(mirror x)
@@ -10570,85 +10466,6 @@
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
 					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 83.82 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec82ac7f-d6aa-4120-90db-6dba5695c319")
-		(property "Reference" "TP8"
-			(at 151.13 82.5499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 151.13 85.0899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "diddle_shah:TestPoint_HEX_3mmID"
-			(at 146.05 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeca35e9-ece0-4eb9-addf-bfacd051657f")
-		)
-		(instances
-			(project "VehicleControlUnit"
-				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
