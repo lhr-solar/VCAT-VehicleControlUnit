@@ -15,13 +15,15 @@
 
 /**
  * Max-current vs speed curve mode for drive current:
- *   MOTOR_MAX_CURRENT_MODE_STEPS     — step thresholds in mph (vehicle speed)
- *   MOTOR_MAX_CURRENT_MODE_PIECEWISE — linear segments in rps/Hz (motor speed)
+ *   MOTOR_MAX_CURRENT_MODE_STEPS        — step thresholds in mph (vehicle speed)
+ *   MOTOR_MAX_CURRENT_MODE_PIECEWISE    — linear segments in rps/Hz (motor speed)
+ *   MOTOR_MAX_CURRENT_MODE_DIRECT_PEDAL — pedal percent maps directly to soft/hard current
  */
-#define MOTOR_MAX_CURRENT_MODE_STEPS     0
-#define MOTOR_MAX_CURRENT_MODE_PIECEWISE 1
+#define MOTOR_MAX_CURRENT_MODE_STEPS        0
+#define MOTOR_MAX_CURRENT_MODE_PIECEWISE    1
+#define MOTOR_MAX_CURRENT_MODE_DIRECT_PEDAL 2
 
-#define MOTOR_MAX_CURRENT_MODE MOTOR_MAX_CURRENT_MODE_PIECEWISE
+#define MOTOR_MAX_CURRENT_MODE MOTOR_MAX_CURRENT_MODE_DIRECT_PEDAL
 
 #define MOTOR_MAX_RPM             12000
 
@@ -85,6 +87,7 @@ float motor_get_max_current(float motor_rpm, float vehicle_velocity_mps);
 /**
  * @brief Drive current command (0.0–1.0 of hard limit):
  *        MOTOR_MAX_CURRENT_PERCENT * fmin(pedal, rollover, max_current)
+ *        In DIRECT_PEDAL mode: MOTOR_MAX_CURRENT_PERCENT * fmin(pedal, rollover).
  */
 float motor_get_drive_current(float motor_rpm, float vehicle_velocity_mps,
                               int16_t lws_angle, uint8_t accel_percent_0_100);

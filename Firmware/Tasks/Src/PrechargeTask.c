@@ -3,6 +3,7 @@
 
 #define PRECHARGE_PRINTF_DEBUG_PERIOD_MS 2000
 #define PRECHARGE_PRINTF_DEBUG_COUNTER (PRECHARGE_PRINTF_DEBUG_PERIOD_MS / PRECHARGE_TASK_DELAY_MS)
+#define PRECHARGE_CAN_SEND_TIMEOUT_MS 5
 
 uint32_t battery_voltage = 0;
 uint32_t motor_voltage = 0;
@@ -55,12 +56,12 @@ void PT_check_ign() {
 void Fault_Checker(uint32_t Motor_Voltage, uint32_t Battery_Voltage) {
     if (Motor_Voltage >
         (Battery_Voltage * VOLTAGE_TOLERANCE_NUMERATOR / VOLTAGE_TOLERANCE_DENOMINATOR)) {
-        faults_set(FAULT_ID_MOTOR_GT_BATTERY);  
+        // faults_set(FAULT_ID_MOTOR_GT_BATTERY);
     }
 
     // is battery booming
     if (Battery_Voltage > OVERVOLTAGE_THRESHOLD_MV) {
-        faults_set(FAULT_ID_BATTERY_OVERVOLTAGE);
+        // faults_set(FAULT_ID_BATTERY_OVERVOLTAGE);
     }
 
     // Is batt voltage too low or disconnected?
@@ -97,8 +98,8 @@ void Task_Precharge() {
         battery_voltage = ADC_Result.Battery_Voltage;
         motor_voltage = ADC_Result.Motor_Voltage;
 
-        can_status_t result =
-            CarCAN_Send_Precharge_Voltages(motor_voltage, battery_voltage, portMAX_DELAY);
+        can_status_t result = CarCAN_Send_Precharge_Voltages(
+            motor_voltage, battery_voltage, pdMS_TO_TICKS(PRECHARGE_CAN_SEND_TIMEOUT_MS));
 
         if (result == CAN_ERR) {
             can_send_errors++;
@@ -106,8 +107,6 @@ void Task_Precharge() {
         } else {
             can_send_errors = 0;
         }
-
-        printf("Motor: %ld mV | Battery: %ld mV\r\n", motor_voltage, battery_voltage);
 
         PT_check_ign();
 

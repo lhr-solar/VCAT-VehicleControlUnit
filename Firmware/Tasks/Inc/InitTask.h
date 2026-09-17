@@ -31,7 +31,7 @@ extern StaticTask_t VCUStatus_Task_Buffer;
 extern StackType_t VCUStatus_Task_Stack[VCU_STATUS_TASK_STACK_SIZE];
 
 extern StaticTask_t UpdateVCUInputs_Task_Buffer;
-extern StackType_t UpdateVCUInputs_Task_Stack[FSM_TASK_STACK_SIZE];
+extern StackType_t UpdateVCUInputs_Task_Stack[UPDATE_VCU_INPUTS_STACK_SIZE];
 
 
 

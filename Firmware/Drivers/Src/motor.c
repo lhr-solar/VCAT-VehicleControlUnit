@@ -126,8 +126,13 @@ float motor_get_max_current(float motor_rpm, float vehicle_velocity_mps) {
 
     return MAX_CURRENT_SEGMENTS[NUM_MAX_CURRENT_SEGMENTS - 1].end_current;
 
+#elif MOTOR_MAX_CURRENT_MODE == MOTOR_MAX_CURRENT_MODE_DIRECT_PEDAL
+    (void)motor_rpm;
+    (void)vehicle_velocity_mps;
+    return 1.0f;
+
 #else
-#error "MOTOR_MAX_CURRENT_MODE must be STEPS or PIECEWISE"
+#error "MOTOR_MAX_CURRENT_MODE must be STEPS, PIECEWISE, or DIRECT_PEDAL"
 #endif
 }
 
@@ -136,9 +141,15 @@ float motor_get_drive_current(float motor_rpm, float vehicle_velocity_mps,
     float pedal = (accel_percent_0_100 <= MOTOR_ACCEL_DEADZONE_MIN)
                       ? 0.0f
                       : (float)accel_percent_0_100 / 100.0f;
+#if MOTOR_MAX_CURRENT_MODE == MOTOR_MAX_CURRENT_MODE_DIRECT_PEDAL
+    (void)motor_rpm;
+    float rollover = get_rollover_limit(vehicle_velocity_mps, lws_angle);
+    return MOTOR_MAX_CURRENT_PERCENT * fminf(pedal, rollover);
+#else
     float rollover = get_rollover_limit(vehicle_velocity_mps, lws_angle);
     float max_curr = motor_get_max_current(motor_rpm, vehicle_velocity_mps);
     return MOTOR_MAX_CURRENT_PERCENT * fminf(pedal, fminf(rollover, max_curr));
+#endif
 }
 
 float motor_get_pwr_current(uint8_t accel_percent_0_100) {

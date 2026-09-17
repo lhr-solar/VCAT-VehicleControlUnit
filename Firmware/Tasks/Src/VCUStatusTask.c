@@ -9,6 +9,8 @@
 #include "event_groups.h"
 #include "math.h"
 
+#define VCU_STATUS_CAN_SEND_TIMEOUT_MS 5
+
 void Task_BroadcastVCUStatus(void *args __attribute__((unused))) {
     uint8_t buf[CAN_DLC_VCU_STATUS];
     TickType_t last = xTaskGetTickCount();
@@ -88,7 +90,7 @@ void Task_BroadcastVCUStatus(void *args __attribute__((unused))) {
         tx_header.TxEventFifoControl = FDCAN_NO_TX_EVENTS;
         tx_header.MessageMarker = 0;
 
-        CarCAN_Send(&tx_header, buf, sizeof(buf));
+        CarCAN_Send(&tx_header, buf, pdMS_TO_TICKS(VCU_STATUS_CAN_SEND_TIMEOUT_MS));
 
         LED_toggle(HB);
         vTaskDelayUntil(&last, pdMS_TO_TICKS(VCU_STATUS_TASK_DELAY_MS));
