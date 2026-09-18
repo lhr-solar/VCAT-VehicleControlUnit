@@ -712,6 +712,12 @@
 		(uuid "4c4c9f24-299a-4a30-9bb6-49f611d938a3")
 	)
 	(junction
+		(at 48.26 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78eef7bd-1987-486d-9296-f53ef2382d29")
+	)
+	(junction
 		(at 104.14 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -776,6 +782,16 @@
 			(type default)
 		)
 		(uuid "0462b4e0-323b-49ee-b9bf-e93fd668b53a")
+	)
+	(wire
+		(pts
+			(xy 48.895 50.8) (xy 48.26 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f707fd6-8158-4523-99dc-7c4aa0f4a8f4")
 	)
 	(wire
 		(pts
@@ -866,6 +882,16 @@
 			(type default)
 		)
 		(uuid "44008937-f92c-4741-ba58-ef55f16fe3a2")
+	)
+	(wire
+		(pts
+			(xy 48.26 51.435) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4544c5f1-4bef-4d5f-b248-689deaebd2df")
 	)
 	(wire
 		(pts
@@ -1019,6 +1045,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1cc8ffd-d432-48ba-bf97-ae921c097adc")
+	)
+	(wire
+		(pts
 			(xy 72.39 52.07) (xy 73.66 52.07)
 		)
 		(stroke
@@ -1099,7 +1135,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 52.07) (xy 55.88 52.07)
+			(xy 44.45 52.07) (xy 48.26 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1136,6 +1172,16 @@
 			(justify left bottom)
 		)
 		(uuid "1f553402-ea60-43b7-b2c1-48ff411f2ac0")
+	)
+	(label "Vin_PP"
+		(at 48.895 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9a5f934-b959-44a4-a899-27b2e933e2fd")
 	)
 	(label "5V_Buck"
 		(at 91.44 52.07 0)

@@ -9263,7 +9263,7 @@
 	)
 	(hierarchical_label "FAN1_PWM"
 		(shape output)
-		(at 151.13 78.105 180)
+		(at 151.13 80.645 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9296,7 +9296,7 @@
 	)
 	(hierarchical_label "FAN1_TACH"
 		(shape input)
-		(at 151.13 80.645 180)
+		(at 151.13 78.105 180)
 		(effects
 			(font
 				(size 1.27 1.27)
