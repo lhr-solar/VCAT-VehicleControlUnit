@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP PRTR5V0U2AX,215
-D PRTR5V0U2AX - Ultra low capacitance double rail-to-rail ESD protection diode
-K
-F https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2AX.pdf
-$ENDCMP
-#
-#End Doc Library
