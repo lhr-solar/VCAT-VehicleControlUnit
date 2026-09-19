@@ -9327,7 +9327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0279b168-96ad-4587-a02e-9070e68f866c")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 62.992 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,7 +9389,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -9406,7 +9406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f8e4d6e-3c8b-4da8-8fa4-4c738ebb7285")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 110.49 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9468,7 +9468,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -9567,7 +9567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "417ba839-24ac-4894-b4a3-e898d939b426")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 57.912 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9631,7 +9631,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -9648,7 +9648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5eebc023-7248-4e54-b4e9-3695d3ffba45")
-		(property "Reference" "R45"
+		(property "Reference" "R46"
 			(at 104.648 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9710,7 +9710,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -9913,7 +9913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7573c283-b5fa-4538-ae27-33ad00549053")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 119.888 43.434 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9975,7 +9975,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -9992,7 +9992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97570b1f-21fa-4533-ae35-6a13f51e3448")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 68.58 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,7 +10054,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -10071,7 +10071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac4cc069-4e91-4c46-a261-c2d53dd3c86e")
-		(property "Reference" "C39"
+		(property "Reference" "C40"
 			(at 46.99 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10135,7 +10135,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -10152,7 +10152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b028c974-5b46-42df-935d-92e434d71c63")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 104.14 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10214,7 +10214,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -10231,7 +10231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf1e6e2f-b734-4587-b76b-4eccfdfc54bb")
-		(property "Reference" "R43"
+		(property "Reference" "R44"
 			(at 77.724 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10293,7 +10293,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "R43")
+					(reference "R44")
 					(unit 1)
 				)
 			)
