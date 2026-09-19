@@ -1613,12 +1613,6 @@
 		(uuid "c3a8983e-39ad-4f32-83a9-160df684dd0a")
 	)
 	(junction
-		(at 50.8 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1be4ba29-309d-4466-aa64-bd1c3c9fb213")
-	)
-	(junction
 		(at 27.94 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1631,10 +1625,16 @@
 		(uuid "40de44d8-2e23-4a1e-9b18-a0226eeea27e")
 	)
 	(junction
+		(at 50.8 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fcc0197-4898-412e-b2c3-f7d580f416cc")
+	)
+	(junction
 		(at 50.8 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "65186f5e-89c9-40b3-814d-2cf851585342")
+		(uuid "733f6437-af77-403e-90f8-983d2d699b30")
 	)
 	(junction
 		(at 67.31 30.48)
@@ -1662,16 +1662,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 50.8 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6766ab-f5e4-4ea1-aa18-b77d4fb016d9")
-	)
-	(wire
-		(pts
 			(xy 24.13 71.12) (xy 25.4 69.85)
 		)
 		(stroke
@@ -1689,16 +1679,6 @@
 			(type default)
 		)
 		(uuid "10f106ca-d900-4670-b207-c9eb3ed23f0b")
-	)
-	(wire
-		(pts
-			(xy 50.8 43.18) (xy 50.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11166e4d-ed43-481f-b5d0-bf4780e18aa9")
 	)
 	(wire
 		(pts
@@ -1772,6 +1752,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 48.26) (xy 50.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6959c8-0252-4d3f-80ca-0929f0b939bf")
+	)
+	(wire
+		(pts
 			(xy 67.31 25.4) (xy 67.31 30.48)
 		)
 		(stroke
@@ -1779,6 +1769,16 @@
 			(type default)
 		)
 		(uuid "3dd8b24a-ee6e-4824-9390-9c9f75b69509")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465c2add-11be-4d2b-805f-1db4f2badae9")
 	)
 	(wire
 		(pts
@@ -1872,7 +1872,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 50.8 45.72)
+			(xy 50.8 43.18) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "169bce45-fee9-45bd-ba34-47523b03c6cf")
-		(property "Reference" "C65"
+		(property "Reference" "C57"
 			(at 30.48 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,7 +2247,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "C65")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -2264,7 +2264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e4802a2-1696-4f84-a997-10989ac104a8")
-		(property "Reference" "R72"
+		(property "Reference" "R73"
 			(at 86.106 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2343,7 +2343,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "R72")
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -2360,7 +2360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe3fa78-8c96-4fec-92a4-65d0f069d53a")
-		(property "Reference" "R73"
+		(property "Reference" "R74"
 			(at 93.726 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +2439,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "R73")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -2788,7 +2788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e23f3016-9cef-4086-b45b-d99873a493c8")
-		(property "Reference" "R71"
+		(property "Reference" "R72"
 			(at 22.098 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2850,7 +2850,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "R71")
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -2867,7 +2867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c3dd7f-84ec-4dcb-899f-0b4a41d3690f")
-		(property "Reference" "C66"
+		(property "Reference" "C58"
 			(at 64.3128 37.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2959,7 +2959,7 @@
 			)
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/c15aadb0-f4ae-46ca-8bcd-83ba5a1e77f0"
-					(reference "C66")
+					(reference "C58")
 					(unit 1)
 				)
 			)

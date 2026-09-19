@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 1.0
@@ -533,6 +533,21 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.15,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -540,7 +555,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB_90",
+        "pattern": "USB_P"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_N"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -715,7 +739,7 @@
         "uuid": "e864fac9-3897-46c9-9101-6d5488c6cd3a"
       }
     ],
-    "used_designators": "#PWR1-27,D1-33,R1-73,#FLG1-14,IC1-7,J1-16,C1-66,CR1,Reset1,FB1-2,JP1-6,L1-2,Q1-8,SW1,TP1-38,TP_3.3V1,U1-5,Y1,F1-6,PS1,H1-4",
+    "used_designators": "#PWR1-27,D1-33,R1-74,#FLG1-14,IC1-7,J1-16,C1-66,CR1,Reset1,FB1-2,JP1-6,L1-2,Q1-8,SW1,TP1-38,TP_3.3V1,U1-5,Y1,F1-6,PS1,H1-4",
     "variants": []
   },
   "sheets": [
