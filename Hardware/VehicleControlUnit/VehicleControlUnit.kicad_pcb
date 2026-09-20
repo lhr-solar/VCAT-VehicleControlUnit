@@ -36082,7 +36082,7 @@
 		(descr "DW0016B")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC4"
-			(at 4.421892 -6.799048 180)
+			(at -4.328108 -6.324048 180)
 			(layer "F.SilkS")
 			(uuid "4c84ba8a-ada9-4698-b1f2-244c1d7cfffc")
 			(effects
@@ -51688,7 +51688,7 @@
 		(uuid "f52e7c96-b1bf-4259-bbf6-28d71f928af7")
 		(at 158.728108 61.185335)
 		(property "Reference" "L2"
-			(at -0.228108 2.314665 0)
+			(at -2.553108 -0.035335 0)
 			(layer "F.SilkS")
 			(uuid "1380e19b-832d-4caa-9ede-9cfe2b6c8dfc")
 			(effects
@@ -218537,26 +218537,6 @@
 		(uuid "94707fe9-6537-4776-b7c4-5542d5210b86")
 	)
 	(gr_line
-		(start 175.65 106.625)
-		(end 168.05 106.625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c2823c85-87c1-46e1-abe3-e9ef4b73f167")
-	)
-	(gr_line
-		(start 175.65 106.625)
-		(end 175.65 97.275)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e53a7fbb-5dda-46cf-82e7-f422888b1a74")
-	)
-	(gr_line
 		(start 175.6625 113.625)
 		(end 175.6 108.1)
 		(stroke
@@ -218585,6 +218565,26 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9d92414e-5ce1-4d8e-a5b1-647aa5f40538")
+	)
+	(gr_line
+		(start 175.925 106.625)
+		(end 168.05 106.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2823c85-87c1-46e1-abe3-e9ef4b73f167")
+	)
+	(gr_line
+		(start 175.925 106.625)
+		(end 175.925 96.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e53a7fbb-5dda-46cf-82e7-f422888b1a74")
 	)
 	(gr_line
 		(start 175.9625 107.75)
@@ -218806,6 +218806,19 @@
 			(justify right bottom)
 		)
 	)
+	(gr_text "Mika"
+		(at 163.025 62.575 0)
+		(layer "F.Mask")
+		(uuid "ab7d4267-d8b9-4437-b39b-297136d2e3b9")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Ac_ADC Pulse\nAcc_V  MCAN_H\nBr_V   MCAN_L\nBr_ADC -ISO\n---SHLD---"
 		(at 168.35 113.275 0)
 		(layer "F.SilkS")
@@ -218843,7 +218856,7 @@
 	)
 	(gr_text "MB3_G"
 		(at 175.038108 85.389048 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "5e789cca-ec10-4535-8c73-b33d63a69c20")
 		(effects
 			(font
@@ -218855,7 +218868,7 @@
 	)
 	(gr_text "MB2_G"
 		(at 175.088108 81.789048 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "81c5b336-cf08-4602-a995-da4a5d621497")
 		(effects
 			(font
@@ -218867,7 +218880,7 @@
 	)
 	(gr_text "MB1_G"
 		(at 175.1 77.8 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "71efeeb5-fd83-4178-b9b9-c2eebe5442db")
 		(effects
 			(font
@@ -218879,7 +218892,7 @@
 	)
 	(gr_text "PM_G"
 		(at 175.15 66.7 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "e3a314f2-7a35-4e49-8cf1-0bbfcea36cf0")
 		(effects
 			(font
@@ -218891,7 +218904,7 @@
 	)
 	(gr_text "FRM_G"
 		(at 175.15 70.7 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "738f4031-8baf-4686-9ccc-57e4946217d2")
 		(effects
 			(font
@@ -218903,7 +218916,7 @@
 	)
 	(gr_text "MB0_G"
 		(at 175.15 74.2 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "f6fbc6df-d13c-4261-9e2d-e6798b5a564e")
 		(effects
 			(font
@@ -218926,9 +218939,22 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "LDAC"
+		(at 151.325 93.9 0)
+		(layer "F.SilkS")
+		(uuid "fe4be43e-cd00-423b-a015-06bff9dc831a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "MB2"
 		(at 151.4 91.175 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "73759a19-a5e2-4a5f-83d9-31cdff4c088e")
 		(effects
 			(font
@@ -218941,21 +218967,8 @@
 	)
 	(gr_text "MB3"
 		(at 151.525 96.35 0)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "453fa22c-9ac5-433a-8514-50ee10c95547")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-	)
-	(gr_text "LDAC"
-		(at 151.625 93.9 0)
-		(layer "F.SilkS" knockout)
-		(uuid "fe4be43e-cd00-423b-a015-06bff9dc831a")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -219017,7 +219030,7 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "PM_G FRM_G MB1_G MB3_G CLK CS Acc_ADC\n+ISO MB0_G MB2_G MOSI  -ISO ISO BR_ADC  "
+	(gr_text "PM_G FRM_G MB1_G MB3_G CLK CS Acc_ADC\n+ISO MB0_G MB2_G MOSI -ISO -ISO BR_ADC  "
 		(at 158.2 122.4 0)
 		(layer "F.SilkS" knockout)
 		(uuid "e154cef6-1ec9-4485-903f-4962809de824")
@@ -219066,7 +219079,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "LED+  LED-\nPM_IN FR_IN \nPM_O  FR_O\nMB0   MB1\nMB2   -Vin\nMB3   +Vin\n--SHLD--\n"
+	(gr_text "LED+  LED-\nPM_IN PM_O \nFR_O  FR_IN\nMB0   MB1\nMB2  -V_mtr\nMB3  +V_mtr\n--SHLD--\n"
 		(at 172 106.025 0)
 		(layer "F.SilkS")
 		(uuid "92d944b3-0c80-43e3-bed4-4e44cce6aebc")
