@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_issues|175180155|117600390|27c41c78-72c5-4ac2-8823-713a2960261e|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -739,7 +744,7 @@
         "uuid": "e864fac9-3897-46c9-9101-6d5488c6cd3a"
       }
     ],
-    "used_designators": "#PWR1-27,D1-33,R1-75,#FLG1-14,IC1-7,J1-19,C1-66,CR1,Reset1,FB1-2,JP1-6,L1-2,Q1-8,SW1,TP1-38,TP_3.3V1,U1-5,Y1,F1-6,PS1,H1-4",
+    "used_designators": "#PWR1-27,D1-33,R1-75,#FLG1-14,IC1-7,J1-20,C1-66,CR1,Reset1,FB1-2,JP1-6,L1-2,Q1-8,SW1,TP1-38,TP_3.3V1,U1-5,Y1,F1-6,PS1,H1-4",
     "variants": []
   },
   "sheets": [

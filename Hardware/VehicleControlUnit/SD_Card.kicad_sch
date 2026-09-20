@@ -2882,7 +2882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99306d14-ea6c-4965-af51-a089501fd000")
-		(property "Reference" "J12"
+		(property "Reference" "J13"
 			(at 155.575 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2982,7 +2982,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/b0b52d73-b085-4624-9871-af1c22d24972"
-					(reference "J12")
+					(reference "J13")
 					(unit 1)
 				)
 			)

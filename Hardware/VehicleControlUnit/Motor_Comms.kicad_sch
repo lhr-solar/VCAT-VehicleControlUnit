@@ -53321,7 +53321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41f45703-1b8f-4c4a-8bc3-95410dbe6f2c")
-		(property "Reference" "J18"
+		(property "Reference" "J19"
 			(at 207.01 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53386,7 +53386,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "J18")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -53483,7 +53483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4dc9bbf0-0216-4ef3-b41c-76cc2d59af38")
-		(property "Reference" "J15"
+		(property "Reference" "J16"
 			(at 202.946 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53548,7 +53548,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "J15")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -56915,7 +56915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c799b2d1-ea68-40da-ac1d-41b3abdd35a5")
-		(property "Reference" "J16"
+		(property "Reference" "J17"
 			(at 204.724 138.303 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57013,7 +57013,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "J16")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -57109,7 +57109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdbee9b7-96ff-4b51-b0c0-8a532809df4c")
-		(property "Reference" "J14"
+		(property "Reference" "J15"
 			(at 200.914 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57179,7 +57179,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "J14")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -58841,7 +58841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f942ae9b-fd6b-4b47-b797-e688c15bdc6e")
-		(property "Reference" "J17"
+		(property "Reference" "J18"
 			(at 209.296 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58911,7 +58911,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/351a8545-bbe6-4531-b2a7-55d4b724255d"
-					(reference "J17")
+					(reference "J18")
 					(unit 1)
 				)
 			)
