@@ -12,7 +12,6 @@
 #include "UpdateVCUInputsTask.h"
 #include "FaultBits.h"
 #include "Watchdogs.h"
-#include "StatusLEDs.h"
 #include "motor.h"
 
 StaticEventGroup_t fsmInputBuffer = {0};
@@ -168,7 +167,6 @@ void Task_FSM(void *args __attribute__((unused))) {
     TickType_t last = xTaskGetTickCount();
     while (1) {
         fsm_step();
-        LED_toggle(HB);
         vTaskDelayUntil(&last, pdMS_TO_TICKS(FSM_TASK_DELAY_MS));
     }
 }

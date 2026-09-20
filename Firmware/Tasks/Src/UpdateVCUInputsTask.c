@@ -2,7 +2,6 @@
 #include "InitTask.h"
 #include "Contactors.h"
 #include "FaultBits.h"
-#include "StatusLEDs.h"
 #include "event_groups.h"
 #include <string.h>
 #include <math.h>
@@ -100,9 +99,7 @@ void Task_UpdateVCUInputs(void *args __attribute__((unused))) {
         // printf("Task_UpdateVCUInputs: %ld", last);
         // update from can
         VCUDataIn_t *volatile update = g_data_write;
-        if (MotorCAN_Recv_Status(&update->motor_status, 0) == CAN_OK) {
-            LED_toggle(HB);
-        }
+        MotorCAN_Recv_Status(&update->motor_status, 0);
         
         MotorCAN_Recv_Velocity(&update->motor_velocity, 0);
         MotorCAN_Recv_Control_Src(&update->motor_controls_src, 0);

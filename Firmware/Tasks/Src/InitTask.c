@@ -23,6 +23,9 @@ StackType_t VCUStatus_Task_Stack[VCU_STATUS_TASK_STACK_SIZE];
 StaticTask_t UpdateVCUInputs_Task_Buffer;
 StackType_t UpdateVCUInputs_Task_Stack[UPDATE_VCU_INPUTS_STACK_SIZE];
 
+StaticTask_t Bootloader_Task_Buffer;
+StackType_t Bootloader_Task_Stack[BOOTLOADER_TASK_STACK_SIZE];
+
 TaskHandle_t precharge_task_handle = NULL;
 
 void Task_Init() {
@@ -31,7 +34,6 @@ void Task_Init() {
 
     
     Init_UART_Printf();
-    Bootloader_CheckForCommand(husart3);
 
     // prech
     ADC_Sense_Init();
@@ -112,6 +114,16 @@ void Task_Init() {
         UPDATE_VCU_INPUTS_THREAD_PRIO,
         UpdateVCUInputs_Task_Stack,
         &UpdateVCUInputs_Task_Buffer
+    );
+
+    xTaskCreateStatic(
+        Task_Bootloader,
+        "Bootloader",
+        BOOTLOADER_TASK_STACK_SIZE,
+        husart3,
+        BOOTLOADER_THREAD_PRIO,
+        Bootloader_Task_Stack,
+        &Bootloader_Task_Buffer
     );
 
 

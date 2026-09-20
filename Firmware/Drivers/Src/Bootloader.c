@@ -1,4 +1,5 @@
 #include "Bootloader.h"
+#include "UART.h"
 #include <string.h>
 
 #define STM32G4_SYSTEM_MEMORY_BASE 0x1FFF0000UL
@@ -29,22 +30,23 @@ void Bootloader_JumpToSystemMemory(void) {
     }
 }
 
-void Bootloader_CheckForCommand(UART_HandleTypeDef *huart) {
+void Task_Bootloader(void *args) {
+    UART_HandleTypeDef *huart = args;
     uint8_t rx = 0;
     uint8_t idx = 0;
     const uint8_t command_len = (uint8_t)strlen(BOOTLOADER_COMMAND);
-    const uint32_t deadline = HAL_GetTick() + BOOTLOADER_LISTEN_TIMEOUT_MS;
 
-    while ((int32_t)(deadline - HAL_GetTick()) > 0) {
-        if (HAL_UART_Receive(huart, &rx, 1, 10) != HAL_OK) {
+    while (1) {
+        if (uart_recv(huart, &rx, 1, portMAX_DELAY) != UART_OK) {
             continue;
         }
 
         if (rx == (uint8_t)BOOTLOADER_COMMAND[idx]) {
             idx++;
             if (idx == command_len) {
-                HAL_UART_Transmit(huart, (uint8_t *)BOOTLOADER_ACK, strlen(BOOTLOADER_ACK), 100);
-                HAL_Delay(50);
+                uart_send(huart, (const uint8_t *)BOOTLOADER_ACK, strlen(BOOTLOADER_ACK),
+                          pdMS_TO_TICKS(100));
+                vTaskDelay(pdMS_TO_TICKS(50));
                 Bootloader_JumpToSystemMemory();
             }
         } else {

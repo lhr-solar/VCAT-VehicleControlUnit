@@ -13,6 +13,7 @@
 #define FSM_TASK_STACK_SIZE                 configMINIMAL_STACK_SIZE * 2
 #define VCU_STATUS_TASK_STACK_SIZE          configMINIMAL_STACK_SIZE * 2
 #define UPDATE_VCU_INPUTS_STACK_SIZE        configMINIMAL_STACK_SIZE * 2
+#define BOOTLOADER_TASK_STACK_SIZE          configMINIMAL_STACK_SIZE
 
 
 extern StaticTask_t FaultHandler_Task_Buffer;
@@ -33,6 +34,9 @@ extern StackType_t VCUStatus_Task_Stack[VCU_STATUS_TASK_STACK_SIZE];
 extern StaticTask_t UpdateVCUInputs_Task_Buffer;
 extern StackType_t UpdateVCUInputs_Task_Stack[UPDATE_VCU_INPUTS_STACK_SIZE];
 
+extern StaticTask_t Bootloader_Task_Buffer;
+extern StackType_t Bootloader_Task_Stack[BOOTLOADER_TASK_STACK_SIZE];
+
 
 
 #define FAULT_HANDLER_THREAD_PRIO           (tskIDLE_PRIORITY + 4)
@@ -41,6 +45,7 @@ extern StackType_t UpdateVCUInputs_Task_Stack[UPDATE_VCU_INPUTS_STACK_SIZE];
 #define FSM_THREAD_PRIO                     (tskIDLE_PRIORITY + 2)
 #define UPDATE_CONTROL_STATUS_THREAD_PRIO   (tskIDLE_PRIORITY + 2)
 #define VCU_STATUS_THREAD_PRIO              (tskIDLE_PRIORITY + 1)
+#define BOOTLOADER_THREAD_PRIO              (tskIDLE_PRIORITY + 1)
 #define SDCARD_WORKER_THREAD_PRIO           (tskIDLE_PRIORITY + 1)
 
 
@@ -55,7 +60,7 @@ extern StackType_t UpdateVCUInputs_Task_Stack[UPDATE_VCU_INPUTS_STACK_SIZE];
 
 #define FSM_TASK_DELAY_MS 100
 
-#define VCU_STATUS_TASK_DELAY_MS 800
+#define VCU_STATUS_TASK_DELAY_MS 500
 
 #define UPDATE_VCU_INPUTS_TASK_DELAY_MS 50
 
