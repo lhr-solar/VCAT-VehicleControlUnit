@@ -44738,7 +44738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3d1f9f1-3933-41be-a847-6dcccd91f7d9")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 225.552 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44839,7 +44839,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/e8918db0-ed0e-4663-8139-dd25306e146c"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -47538,7 +47538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe1500a8-881f-4651-91f8-6b45a7a1302b")
-		(property "Reference" "J12"
+		(property "Reference" "J11"
 			(at 224.536 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47608,7 +47608,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/f9087b5b-32fd-4bb7-84dd-9fe64614d383/e8918db0-ed0e-4663-8139-dd25306e146c"
-					(reference "J12")
+					(reference "J11")
 					(unit 1)
 				)
 			)

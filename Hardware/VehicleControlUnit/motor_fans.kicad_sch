@@ -10310,7 +10310,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d09c0d89-1865-4149-b713-37be92589f89")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 155.575 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10383,7 +10383,7 @@
 		(instances
 			(project "VehicleControlUnit"
 				(path "/e864fac9-3897-46c9-9101-6d5488c6cd3a/76867641-26a4-43d1-a64a-9a6eb791f3f7"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
