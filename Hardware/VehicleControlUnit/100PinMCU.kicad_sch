@@ -40690,6 +40690,26 @@
 		)
 		(uuid "1a7b358f-674d-433a-a9d9-86400b52d8aa")
 	)
+	(label "OSC_N"
+		(at 48.26 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55cb17f4-06a5-4476-bd6e-03201227e69f")
+	)
+	(label "OSC_P"
+		(at 48.26 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8170914c-64af-48e8-b486-52105b1c6641")
+	)
 	(label "SWDIO"
 		(at 198.12 147.32 180)
 		(effects
