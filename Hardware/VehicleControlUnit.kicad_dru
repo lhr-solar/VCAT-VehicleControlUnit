@@ -1,5 +1,0 @@
-(version 1)
-(rule "skew matching USB"
-	(constraint length (min 17.3mm) (max 17.7mm))
-	(condition "A.NetClass == 'USB'")
-	(severity error))
